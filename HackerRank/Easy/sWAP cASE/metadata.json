@@ -1,0 +1,15 @@
+{
+  "title": "sWAP cASE",
+  "title_slug": "swap-case",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/swap-case/problem",
+  "tags": [],
+  "description": "You are given a string and your task is to *swap cases*. In other words, convert all lowercase letters to uppercase letters and vice versa.\n\n**For Example:**\n\n```\nWww.HackerRank.com → wWW.hACKERrANK.COM\nPythonist 2 → pYTHONIST 2\n\n```\n\n**Function Description**\n\nComplete the *swap_case* function in the editor below.\n\n*swap_case* has the following parameters:\n\n* *string s:* the string to modify\n\n**Returns**\n\n* *string:* the modified string\n\n**Input Format**\n\nA single line containing a string .\n\n**Constraints**\n\n**Sample Input 0**\n\n```\nHackerRank.com presents \"Pythonist 2\".\n\n```\n\n**Sample Output 0**\n\n```\nhACKERrANK.COM PRESENTS \"pYTHONIST 2\".\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:48:30.600Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "swap-case"
+}
