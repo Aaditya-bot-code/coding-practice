@@ -1,0 +1,15 @@
+{
+  "title": "Print Function",
+  "title_slug": "python-print",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-print/problem",
+  "tags": [],
+  "description": "Check [Tutorial](https://www.hackerrank.com/challenges/python-print/tutorial) tab to know how to to solve.\n\nThe included code stub will read an integer, , from STDIN.\n\nWithout using any string methods, try to print the following:\n\nNote that \"\" represents the consecutive values in between.\n\n**Example** **\n\nPrint the string .\n\nInput Format**\n\nThe first line contains an integer .\n\n**Constraints**\n\n**Output Format**\n\nPrint the list of integers from  through  as a string, without spaces.\n\n**Sample Input 0**\n\n```\n3\n\n```\n\n**Sample Output 0**\n\n```\n123\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:51:35.437Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-print"
+}
