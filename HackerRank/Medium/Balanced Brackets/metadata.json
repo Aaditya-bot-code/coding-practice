@@ -1,0 +1,15 @@
+{
+  "title": "Balanced Brackets",
+  "title_slug": "balanced-brackets",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/balanced-brackets/problem",
+  "tags": [],
+  "description": "A bracket is considered to be any one of the following characters: `(`, `)`, `{`, `}`, `[`, or `]`.\n\nTwo brackets are considered to be a *matched pair* if the an opening bracket (i.e., `(`, `[`, or `{`) occurs to the left of a closing bracket (i.e., `)`, `]`, or `}`) *of the exact same type*. There are three types of matched pairs of brackets: `[]`, `{}`, and `()`.\n\nA matching pair of brackets is *not balanced* if the set of brackets it encloses are not matched. For example, `{[(])}` is not balanced because the contents in between `{` and `}` are not balanced. The pair of square brackets encloses a single, unbalanced opening bracket, `(`, and the pair of parentheses encloses a single, unbalanced closing square bracket, `]`.\n\nBy this logic, we say a sequence of brackets is *balanced* if the following conditions are met:\n\n* It contains no unmatched brackets.\n\n* The subset of brackets enclosed within the confines of a matched pair of brackets is also a matched pair of brackets.\n\nGiven  strings of brackets, determine whether each sequence of brackets is balanced. If a string is balanced, return `YES`.  Otherwise, return `NO`.\n\n**Function Description**\n\nComplete the function *isBalanced* in the editor below.\n\nisBalanced has the following parameter(s):\n\n* *string s*: a string of brackets\n\n**Returns**\n\n* *string:* either `YES` or `NO`\n\n**Input Format**\n\nThe first line contains a single integer , the number of strings. **\nEach of the next  lines contains a single string , a sequence of brackets.\n\nConstraints**\n\n*\n\n* , where  is the length of the sequence.\n\n* All chracters in the sequences ∈ { **{**, **}**, **(**, **)**, **[**, **]** }.\n\n**Output Format**\n\nFor each string, return `YES` or `NO`.\n\n**Sample Input**\n\n```\nSTDIN           Function\n-----           --------\n3               n = 3\n{[()]}          first s = '{[()]}'\n{[(])}          second s = '{[(])}'\n{{[[(())]]}}    third s ='{{[[(())]]}}'\n\n```\n\n**Sample Output**\n\n```\nYES\nNO\nYES\n\n```\n\n**Explanation**\n\n* The string `{[()]}` meets both criteria for being a balanced string.\n\n* The string `{[(])}` is not balanced because the brackets enclosed by the matched pair `{` and `}` are not balanced: `[(])`.\n\n* The string `{{[[(())]]}}` meets both criteria for being a balanced string.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:45:22.932Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "balanced-brackets"
+}
