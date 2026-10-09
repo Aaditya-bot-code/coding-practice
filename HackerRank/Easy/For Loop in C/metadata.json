@@ -1,0 +1,15 @@
+{
+  "title": "For Loop in C",
+  "title_slug": "for-loop-in-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/for-loop-in-c/problem",
+  "tags": [],
+  "description": "**Objective**\n\nIn this challenge, you will learn the usage of the *for* loop, which is a programming language statement which allows code to be executed until a terminal condition is met.  They can even repeat forever if the terminal condition is never met.\n\nThe syntax for the `for` loop is:\n\n```\nfor ( <expression_1> ; <expression_2> ; <expression_3> )\n    <statement>\n\n```\n\n* *expression_1* is used for intializing variables which are generally used for controlling the terminating flag for the loop.\n\n* *expression_2* is used to check for the terminating condition. If this evaluates to false, then the loop is terminated.\n\n* *expression_3* is generally used to update the flags/variables.\n\nThe following loop initializes  to 0, tests that  is less than 10, and increments  at every iteration.  It will execute 10 times.\n\n```\nfor(int i = 0; i < 10; i++) {\n    ...\n}\n\n```\n\n**Task**\n\nFor each integer  in the interval  (given as input) :\n\n* If , then print the English representation of it in lowercase. That is \"one\" for , \"two\" for , and so on.\n\n* Else if  and it is an even number, then print \"even\".\n\n* Else if  and it is an odd number, then print \"odd\".\n\n**Input Format**\n\nThe first line contains an integer, . **\nThe seond line contains an integer, .\n\nConstraints**\n\n**Output Format**\n\nPrint the appropriate English representation,`even`, or `odd`, based on the conditions described in the 'task' section.\n\n**Note:**\n\n**Sample Input**\n\n```\n8\n11\n\n```\n\n**Sample Output**\n\n```\neight\nnine\neven\nodd\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:53:53.290Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "for-loop-in-c"
+}
