@@ -1,0 +1,14 @@
+// HackerRank Problem: Find a string
+// Link: https://www.hackerrank.com/challenges/find-a-string/problem
+// Difficulty: Easy
+// Language: pypy3
+
+def count_substring(string, sub_string):
+    p=0
+    l=len(string)
+    m=len(sub_string)
+    for i in range(l-m+1):
+        if string[i:i+m]==sub_string:
+            p=p+1
+    return p
+
