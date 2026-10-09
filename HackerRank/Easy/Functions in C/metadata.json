@@ -1,0 +1,15 @@
+{
+  "title": "Functions in C",
+  "title_slug": "functions-in-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/functions-in-c/problem",
+  "tags": [],
+  "description": "**Objective**\n\nIn this challenge, you will learn simple usage of functions in C. Functions are a bunch of statements grouped together. A function is provided with zero or more arguments, and it executes the statements on it. Based on the return type, it either returns nothing (void) or something. **\n\nA sample syntax for a function is\n\n```\n\treturn_type function_name(arg_type_1 arg_1, arg_type_2 arg_2, ...) {\n    \t...\n        ...\n        ...\n        [if return_type is non void]\n        \treturn something of type `return_type`;\n    }\n\n```\n\nFor example, a function to read four variables and return the sum of them can be written as\n\n```\n\tint sum_of_four(int a, int b, int c, int d) {\n    \tint sum = 0;\n        sum += a;\n        sum += b;\n        sum += c;\n        sum += d;\n        return sum;\n    }\n\n```\n\n```\n+= : Add and assignment operator. It adds the right operand to the left operand and assigns the result to the left operand.\n\na += b is equivalent to a = a + b;\n\n```\n\nTask**\n\nWrite a function `int max_of_four(int a, int b, int c, int d)` which reads four arguments and returns the greatest of them.\n\n**Note**\n\nThere is not built in `max` function in C.  Code that will be reused is often put in a separate function, e.g. `int max(x, y)` that returns the greater of the two values.\n\n**Input Format**\n\nInput will contain four integers -  , one on each line.\n\n**Output Format**\n\nPrint the greatest of the four integers.\n**\nNote: I/O will be automatically handled.\n\nSample Input**\n\n```\n3\n4\n6\n5\n\n```\n\n**Sample Output**\n\n```\n6\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:52:46.196Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "functions-in-c"
+}
