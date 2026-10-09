@@ -1,0 +1,15 @@
+{
+  "title": "Calculate the Nth term",
+  "title_slug": "recursion-in-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/recursion-in-c/problem",
+  "tags": [],
+  "description": "**Objective** **\nThis challenge will help you learn the concept of recursion.\n\nA function that calls itself is known as a recursive function. The C programming language supports recursion. But while using recursion, one needs to be careful to define an exit condition from the function, otherwise it will go into an infinite loop.\n\nTo prevent infinite recursion,  statement (or similar approach) can be used where one branch makes the recursive call and other doesn't.\n\n```\nvoid recurse() {\n    .....\n    recurse()  //recursive call\n    .....\n}\nint main() {\n    .....\n    recurse(); //function call\n    .....\n}\n\n```\n\nTask**\n\nThere is a series, , where the next term is the sum of pervious three terms. Given the first three terms of the series, , , and  respectively, you have to output the *nth* term of the series using recursion.\n\nRecursive method for calculating *nth* term is given below.\n\n**Input Format**\n\n*\nThe first line contains a single integer, .\n\n*\nThe next line contains *3* space-separated integers, , , and .\n\n**Constraints**\n\n*\n\n*\n\n**Output Format**\n\nPrint the *nth* term of the series, .\n\n**Sample Input 0**\n\n```\n5\n1 2 3\n\n```\n\n**Sample Output 0**\n\n```\n11\n\n```\n\n**Explanation 0**\n\nConsider the following steps:\n\n*\n\n*\n\n*\n\n*\n\n*\n\nFrom steps , , , and , we can say ; then using the values from step , , , and , we get . Thus, we print  as our answer.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:53:13.344Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "recursion-in-c"
+}
