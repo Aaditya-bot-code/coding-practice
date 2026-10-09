@@ -1,0 +1,15 @@
+{
+  "title": "Say \"Hello, World!\" With Python",
+  "title_slug": "py-hello-world",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-hello-world/problem",
+  "tags": [],
+  "description": "Check [Tutorial](https://www.hackerrank.com/challenges/py-hello-world/tutorial) tab to know how to to solve.\n\nHere is a sample line of code that can be executed in Python:\n\n```\nprint(\"Hello, World!\")\n\n```\n\nYou can just as easily store a string as a variable and then print it to stdout:\n\n```\nmy_string = \"Hello, World!\"\nprint(my_string)\n\n```\n\nThe above code will print `Hello, World!` on your screen. Try it yourself in the editor below!\n\n**Input Format**\n\nYou do not need to read any input in this challenge.\n\n**Output Format**\n\nPrint `Hello, World!` to stdout.\n\n**Sample Output 0**\n\n```\nHello, World!\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:52:27.151Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-hello-world"
+}
