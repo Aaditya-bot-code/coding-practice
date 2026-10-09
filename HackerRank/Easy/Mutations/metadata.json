@@ -1,0 +1,15 @@
+{
+  "title": "Mutations",
+  "title_slug": "python-mutations",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-mutations/problem",
+  "tags": [],
+  "description": "We have seen that lists are mutable (they can be changed), and tuples are immutable (they cannot be changed).\n\nLet's try to understand this with an example.\n\nYou are given an immutable string, and you want to make changes to it.\n\n**Example**\n\n```\n>>> string = \"abracadabra\"\n\n```\n\nYou can access an index by:\n\n```\n>>> print string[5]\na\n\n```\n\nWhat if you would like to assign a value?\n\n```\n>>> string[5] = 'k'\nTraceback (most recent call last):\n  File \"<stdin>\", line 1, in <module>\nTypeError: 'str' object does not support item assignment\n\n```\n\nHow would you approach this?\n\n* One solution is to convert the string to a list and then change the value.\n\n**Example**\n\n```\n>>> string = \"abracadabra\"\n>>> l = list(string)\n>>> l[5] = 'k'\n>>> string = ''.join(l)\n>>> print string\nabrackdabra\n\n```\n\n* Another approach is to slice the string and join it back.\n\nExample\n\n```\n>>> string = string[:5] + \"k\" + string[6:]\n>>> print string\nabrackdabra\n\n```\n\n**Task** **\nRead a given string, change the character at a given index and then print the modified string.\n\nFunction Description**\n\nComplete the *mutate_string* function in the editor below.\n\n*mutate_string* has the following parameters:\n\n* *string string:* the string to change\n\n* *int position:* the index to insert the character at\n\n* *string character:* the character to insert\n\n**Returns**\n\n* *string:* the altered string\n\n**Input Format**\n\nThe first line contains a string, . **\nThe next line contains an integer , the index location and a string , separated by a space.\n\nSample Input**\n\n```\nSTDIN           Function\n-----           --------\nabracadabra     s = 'abracadabra'\n5 k             position = 5, character = 'k'\n\n```\n\n**Sample Output**\n\n```\nabrackdabra\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:47:58.339Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-mutations"
+}
