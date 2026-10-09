@@ -1,0 +1,15 @@
+{
+  "title": "Sum and Difference of Two Numbers",
+  "title_slug": "sum-numbers-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/sum-numbers-c/problem",
+  "tags": [],
+  "description": "**Objective**\n\nThe fundamental data types in c are int, float and char. Today, we're discussing int and float data types.\n\nThe `printf()` function prints the given statement to the console. The syntax is `printf(\"format string\",argument_list);`. In the function, if we are using an integer, character, string or float as argument, then in the format string we have to write `%d` (integer), `%c` (character), `%s` (string), `%f` (float) respectively.\n\nThe `scanf()` function reads the input data from the console. The syntax is `scanf(\"format string\",argument_list);`. For ex: The `scanf(\"%d\",&number)` statement reads integer number from the console and stores the given value in variable .\n\nTo input two integers separated by a space on a single line, the command is `scanf(\"%d %d\", &n, &m)`, where  and  are the two integers.\n\n**Task**\n\nYour task is to take two numbers of int data type, two numbers of float data type as input and output their sum:\n\n* Declare  variables: two of type int and two of type float.\n\n* Read  lines of input from stdin (according to the sequence given in the 'Input Format' section below) and initialize your  variables.\n\n* Use the  and  operator to perform the following operations: Print the sum and difference of two int variable on a new line.\n\n* Print the sum and difference of two float variable rounded to one decimal place on a new line.\n\n**Input Format**\n\nThe first line contains two integers. **\nThe second line contains two floating point numbers.\n\nConstraints**\n\n*  integer variables\n\n*  float variables\n\n**Output Format**\n\nPrint the sum and difference of both integers separated by a space on the first line, and the sum and difference of both float (scaled to  decimal place) separated by a space on the second line.\n\n**Sample Input**\n\n```\n10 4\n4.0 2.0\n\n```\n\n**Sample Output**\n\n```\n14 6\n6.0 2.0\n\n```\n\n**Explanation**\n\nWhen we sum the integers  and , we get the integer . When we subtract the second number  from the first number , we get  as their difference.\n\nWhen we sum the floating-point numbers  and , we get . When we subtract the second number  from the first number , we get  as their difference.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:54:37.817Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "sum-numbers-c"
+}
