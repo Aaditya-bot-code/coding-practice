@@ -1,0 +1,16 @@
+// HackerRank Problem: Nested Lists
+// Link: https://www.hackerrank.com/challenges/nested-list/problem
+// Difficulty: Easy
+// Language: pypy3
+
+if __name__ == '__main__':
+    record=[]
+    for _ in range(int(input())):
+        name = input()
+        score = float(input())
+        record.append([name,score])
+    scores=sorted({score for name,score in record})
+    second_lowest=scores[1]
+    result=sorted([name for name,score in record if score==second_lowest])
+    for name in result:
+        print(name)
