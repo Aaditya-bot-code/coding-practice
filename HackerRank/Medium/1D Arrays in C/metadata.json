@@ -1,0 +1,15 @@
+{
+  "title": "1D Arrays in C",
+  "title_slug": "1d-arrays-in-c",
+  "difficulty": "Medium",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/1d-arrays-in-c/problem",
+  "tags": [],
+  "description": "An array is a container object that holds a fixed number of values of a single type. To create an array in C, we can do `int arr[n];`. Here, arr, is a variable array which holds up to  integers. The above array is a static array that has memory allocated at compile time. A dynamic array can be created in C, using the malloc function and the memory is allocated on the heap at runtime. To create an integer array,  of size , `int *arr = (int*)malloc(n * sizeof(int))`, where  points to the base address of the array.  When you have finished with the array, use `free(arr)` to deallocate the memory.\n\nIn this challenge, create an array of size  dynamically, and read the values from stdin.  Iterate the array calculating the sum of all elements.  Print the sum and free the memory where the array is stored.\n\nWhile it is true that you can sum the elements as they are read, without first storing them to an array, but you will not get the experience working with an array.  Efficiency will be required later.\n\n**Input Format**\n\nThe first line contains an integer, . **\nThe next line contains  space-separated integers.\n\nConstraints**\n\n **\n\nOutput Format**\n\nPrint the sum of the integers in the array.\n\n**Sample Input 0**\n\n```\n6\n16 13 7 2 1 12\n\n```\n\n**Sample Output 0**\n\n```\n51\n\n```\n\n**Sample Input 1**\n\n```\n7\n1 13 15 20 12 13 2\n\n```\n\n**Sample Output 1**\n\n```\n76\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:53:21.833Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "1d-arrays-in-c"
+}
