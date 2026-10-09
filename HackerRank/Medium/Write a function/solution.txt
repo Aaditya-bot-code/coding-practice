@@ -1,0 +1,15 @@
+// HackerRank Problem: Write a function
+// Link: https://www.hackerrank.com/challenges/write-a-function/problem
+// Difficulty: Medium
+// Language: pypy3
+
+def is_leap(year):
+    leap = False
+    if year%4==0 and year%100!=0 or year%400==0:
+        leap=True
+    
+    
+    # Write your logic here
+    
+    return leap
+
