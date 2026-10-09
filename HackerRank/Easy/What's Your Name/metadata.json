@@ -1,0 +1,15 @@
+{
+  "title": "What's Your Name?",
+  "title_slug": "whats-your-name",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/whats-your-name/problem",
+  "tags": [],
+  "description": "You are given the firstname and lastname of a person on two different lines. Your task is to read them and print the following:\n\n**\n\nHello `firstname` `lastname`! You just delved into python.\n\nFunction Description**\n\nComplete the *print_full_name* function in the editor below.\n\n*print_full_name* has the following parameters:\n\n* *string first:* the first name\n\n* *string last:* the last name\n\n**Prints**\n\n* *string:* 'Hello  ! You just delved into python' where  and  are replaced with  and .\n\n**Input Format**\n\nThe first line contains the first name, and the second line contains the last name.\n\n**Constraints**\n\nThe length of the first and last names are each ≤ .\n\n**Sample Input 0**\n\n```\nRoss\nTaylor\n\n```\n\n**Sample Output 0**\n\n```\nHello Ross Taylor! You just delved into python.\n\n```\n\n**Explanation 0**\n\nThe input read by the program is stored as a string data type. A string is a collection of characters.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:48:08.991Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "whats-your-name"
+}
