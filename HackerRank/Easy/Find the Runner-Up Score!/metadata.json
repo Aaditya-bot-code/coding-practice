@@ -1,0 +1,15 @@
+{
+  "title": "Find the Runner-Up Score!  ",
+  "title_slug": "find-second-maximum-number-in-a-list",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem",
+  "tags": [],
+  "description": "Given the participants' score sheet for your University Sports Day, you are required to find the runner-up score. You are given  scores. Store them in a list and find the score of the runner-up.\n\n**Input Format**\n\nThe first line contains . The second line contains an array   of  integers each separated by a space.\n\n**Constraints**\n\n*\n\n*\n\n**Output Format**\n\nPrint the runner-up score.\n\n**Sample Input 0**\n\n```\n5\n2 3 6 6 5\n\n```\n\n**Sample Output 0**\n\n```\n5\n\n```\n\n**Explanation 0**\n\nGiven list is . The maximum score is , second maximum is . Hence, we print  as the runner-up score.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:49:24.459Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "find-second-maximum-number-in-a-list"
+}
