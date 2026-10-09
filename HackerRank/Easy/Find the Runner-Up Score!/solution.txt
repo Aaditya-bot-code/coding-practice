@@ -1,0 +1,12 @@
+// HackerRank Problem: Find the Runner-Up Score!  
+// Link: https://www.hackerrank.com/challenges/find-second-maximum-number-in-a-list/problem
+// Difficulty: Easy
+// Language: pypy3
+
+if __name__ == '__main__':
+    n = int(input())
+    arr = list(map(int, input().split()))
+    max1=max(arr)
+    while max1 in arr:
+        arr.remove(max1)
+    print(max(arr))
