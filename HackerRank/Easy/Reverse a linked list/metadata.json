@@ -1,0 +1,15 @@
+{
+  "title": "Reverse a linked list",
+  "title_slug": "reverse-a-linked-list",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/reverse-a-linked-list/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool) and is accompanied by a video lesson.\n\nGiven the pointer to the head node of a linked list, change the `next` pointers of the nodes so that their order is reversed. The head pointer given may be null meaning that the initial list is empty.\n\n**Example** **\n references the list\n\nManipulate the  pointers of each node in place and return , now referencing the head of the list .\n\nFunction Description**\n\nComplete the *reverse* function in the editor below.\n\n*reverse* has the following parameter:\n\n* *SinglyLinkedListNode pointer head:* a reference to the head of a list\n\n**Returns**\n\n* *SinglyLinkedListNode pointer:* a reference to the head of the reversed list\n\n**Input Format**\n\nThe first line contains an integer , the number of test cases.\n\nEach test case has the following format:\n\nThe first line contains an integer , the number of elements in the linked list. **\nEach of the next  lines contains an integer, the  values of the elements in the linked list.\n\nConstraints**\n\n*\n\n*\n\n* , where  is the  element in the list.\n\n**Sample Input**\n\n```\n1\n5\n1\n2\n3\n4\n5\n\n```\n\n**Sample Output**\n\n```\n5 4 3 2 1\n\n```\n\n**Explanation**\n\nThe initial linked list is: .\n\nThe reversed linked list is: .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:43:36.617Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "reverse-a-linked-list"
+}
