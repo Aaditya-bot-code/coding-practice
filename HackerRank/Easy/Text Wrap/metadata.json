@@ -1,0 +1,15 @@
+{
+  "title": "Text Wrap",
+  "title_slug": "text-wrap",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/text-wrap/problem",
+  "tags": [],
+  "description": "Check [Tutorial](https://www.hackerrank.com/challenges/text-wrap/tutorial) tab to know how to to solve.\n\nYou are given a string  and width . **\nYour task is to wrap the string into a paragraph of width .\n\nFunction Description**\n\nComplete the *wrap* function in the editor below.\n\n*wrap* has the following parameters:\n\n* *string string:* a long string\n\n* *int max_width:* the width to wrap to\n\n**Returns**\n\n* *string:* a single string with newline characters ('\\n') where the breaks should be\n\n**Input Format**\n\nThe first line contains a string, . **\nThe second line contains the width, .\n\nConstraints**\n\n*\n\n*\n\n**Sample Input 0**\n\n```\nABCDEFGHIJKLIMNOQRSTUVWXYZ\n4\n\n```\n\n**Sample Output 0**\n\n```\nABCD\nEFGH\nIJKL\nIMNO\nQRST\nUVWX\nYZ\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:47:23.834Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "text-wrap"
+}
