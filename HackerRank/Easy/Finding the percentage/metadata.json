@@ -1,0 +1,15 @@
+{
+  "title": "Finding the percentage",
+  "title_slug": "finding-the-percentage",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/finding-the-percentage/problem",
+  "tags": [],
+  "description": "The provided code stub will read in a dictionary containing key/value pairs of name:[marks] for a list of students.  Print the average of the marks array for the student name provided, showing 2 places after the decimal.\n\n**Example** **\n\nThe query_name** is 'beta'.  beta's average score is .\n\n**Input Format**\n\nThe first line contains the integer , the number of students' records. The next  lines contain the names and marks obtained by a student, each value separated by a space. The final line contains **query_name**, the name of a student to query.\n\n**Constraints**\n\n*\n\n*\n\n*\n\n**Output Format**\n\nPrint one line: The average of the marks obtained by the particular student correct to 2 decimal places.\n\n**Sample Input 0**\n\n```\n3\nKrishna 67 68 69\nArjun 70 98 63\nMalika 52 56 60\nMalika\n\n```\n\n**Sample Output 0**\n\n```\n56.00\n\n```\n\n**Explanation 0**\n\nMarks for Malika are  whose average is\n\n**Sample Input 1**\n\n```\n2\nHarsh 25 26.5 28\nAnurag 26 28 30\nHarsh\n\n```\n\n**Sample Output 1**\n\n```\n26.50\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:49:00.400Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "finding-the-percentage"
+}
