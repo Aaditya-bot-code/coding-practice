@@ -1,0 +1,15 @@
+{
+  "title": "Delete a Node",
+  "title_slug": "delete-a-node-from-a-linked-list",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/delete-a-node-from-a-linked-list/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool) and is accompanied by a video lesson.\n\nDelete the node at a given position in a linked list and return a reference to the head node. The head is at position 0. The list may be empty after you delete the node. In that case, return a null value.\n\n**Example**\n\n **\n\nAfter removing the node at position , .\n\nFunction Description**\n\nComplete the *deleteNode* function in the editor below.\n\n*deleteNode* has the following parameters: **\n- *SinglyLinkedListNode pointer llist:*  a reference to the head node in the list\n\n- *int position:*  the position of the node to remove\n\nReturns** **\n- *SinglyLinkedListNode pointer:* a reference to the head of the modified list\n\nInput Format**\n\nThe first line of input contains an integer , the number of elements in the linked list. **\nEach of the next  lines contains an integer, the node data values in order.\n\nThe last line contains an integer, , the position of the node to delete.\n\nConstraints**\n\n*\n\n* , where  is the  element of the linked list.\n\n**Sample Input**\n\n```\n8\n20\n6\n2\n19\n7\n4\n15\n9\n3\n\n```\n\n**Sample Output**\n\n```\n20 6 2 7 4 15 9\n\n```\n\n**Explanation**\n\nThe original list is . After deleting the node at position , the list is  .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:43:58.113Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "delete-a-node-from-a-linked-list"
+}
