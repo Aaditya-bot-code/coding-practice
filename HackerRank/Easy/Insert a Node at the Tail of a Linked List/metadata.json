@@ -1,0 +1,15 @@
+{
+  "title": "Insert a Node at the Tail of a Linked List",
+  "title_slug": "insert-a-node-at-the-tail-of-a-linked-list",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/insert-a-node-at-the-tail-of-a-linked-list/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool) and is accompanied by a video lesson.\n\nYou are given the pointer to the head node of a linked list and an integer to add to the list. Create a new node with the given integer. Insert this node at the tail of the linked list and return the head node of the linked list formed after inserting this new node. The given head pointer may be null, meaning that the initial list is empty.\n\n**Function Description**\n\nComplete the  function with the following parameters:\n\n* : a reference to the head of a list\n\n* : the data value for the node to insert\n\n**Returns**\n\n* : reference to the head of the modified linked list\n\n**Input Format**\n\nThe first line contains an integer , the number of elements in the linked list. **\nThe next  lines contain an integer each, the value that needs to be inserted at tail.\n\nConstraints**\n\n*\n\n*\n\n**Sample Input**\n\n```\nSTDIN   Function\n-----   --------\n5       size of linked list n = 5\n141     linked list data values 141..474\n302\n164\n530\n474\n\n```\n\n**Sample Output**\n\n```\n141\n302\n164\n530\n474\n\n```\n\n**Explanation**\n\nFirst the linked list is NULL. After inserting 141, the list is 141 -> NULL.\n\nAfter inserting 302, the list is 141 -> 302 -> NULL.\n\nAfter inserting 164, the list is 141 -> 302 -> 164 -> NULL.\n\nAfter inserting 530, the list is 141 -> 302 -> 164 -> 530 -> NULL.\nAfter inserting 474, the list is 141 -> 302 -> 164 -> 530 -> 474 -> NULL, which is the final list.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:44:26.280Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "insert-a-node-at-the-tail-of-a-linked-list"
+}
