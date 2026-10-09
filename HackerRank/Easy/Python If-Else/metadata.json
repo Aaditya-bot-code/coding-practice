@@ -1,0 +1,15 @@
+{
+  "title": "Python If-Else",
+  "title_slug": "py-if-else",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/py-if-else/problem",
+  "tags": [],
+  "description": "Check [Tutorial](https://www.hackerrank.com/challenges/py-if-else/tutorial) tab to know how to solve.\n\n**Task** **\nGiven an integer, , perform the following conditional actions:\n\n* If  is odd, print `Weird`\n\n* If  is even and in the inclusive range of  to , print `Not Weird`\n\n* If  is even and in the inclusive range of  to , print `Weird`\n\n* If  is even and greater than , print `Not Weird`\n\nInput Format**\n\nA single line containing a positive integer, .\n\n**Constraints**\n\n*\n\n**Output Format**\n\nPrint `Weird` if the number is weird.  Otherwise, print `Not Weird`.\n\n**Sample Input 0**\n\n```\n3\n\n```\n\n**Sample Output 0**\n\n```\nWeird\n\n```\n\n**Explanation 0**\n\n **\n is odd and odd numbers are weird, so print `Weird`.\n\nSample Input 1**\n\n```\n24\n\n```\n\n**Sample Output 1**\n\n```\nNot Weird\n\n```\n\n**Explanation 1**\n\n and  is even, so it is not weird.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:52:18.550Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "py-if-else"
+}
