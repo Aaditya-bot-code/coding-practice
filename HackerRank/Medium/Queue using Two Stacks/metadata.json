@@ -1,0 +1,15 @@
+{
+  "title": "Queue using Two Stacks",
+  "title_slug": "queue-using-two-stacks",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/queue-using-two-stacks/problem",
+  "tags": [],
+  "description": "A [queue](https://en.wikipedia.org/wiki/Queue_%28abstract_data_type%29) is an abstract data type that maintains the order in which elements were added to it, allowing the oldest elements to be removed from the front and new elements to be added to the rear. This is called a *First-In-First-Out* (FIFO) data structure because the first element added to the queue (i.e., the one that has been waiting the longest) is always the first one to be removed.\n\nA basic queue has the following operations:\n\n* *Enqueue*: add a new element to the end of the queue.\n\n* *Dequeue*: remove the element from the front of the queue and return it.\n\nIn this challenge, you must first implement a queue using *two stacks*. Then process  queries, where each query is one of the following  types:\n\n* `1 x`: Enqueue element  into the end of the queue.\n\n* `2`: Dequeue the element at the front of the queue.\n\n* `3`: Print the element at the front of the queue.\n\n**Input Format**\n\nThe first line contains a single integer, , denoting the number of queries. **\nEach line  of the  subsequent lines contains a single query in the form described in the problem statement above. All three queries start with an integer denoting the query , but only query  is followed by an additional space-separated value, , denoting the value to be enqueued.\n\nConstraints**\n\n*\n\n*\n\n*\n\n* It is guaranteed that a valid answer always exists for each query of type .\n\n**Output Format**\n\nFor each query of type , print the value of the element at the front of the queue on a new line.\n\n**Sample Input**\n\n```\nSTDIN   Function\n-----   --------\n10      q = 10 (number of queries)\n1 42    1st query, enqueue 42\n2       dequeue front element\n1 14    enqueue 42\n3       print the front element\n1 28    enqueue 28\n3       print the front element\n1 60    enqueue 60\n1 78    enqueue 78\n2       dequeue front element\n2       dequeue front element\n\n```\n\n**Sample Output**\n\n```\n14\n14\n\n```\n\n**Explanation**\n\nPerform the following sequence of actions:\n\n* Enqueue ; .\n\n* Dequeue the value at the head of the queue, ; .\n\n* Enqueue ; .\n\n* Print the value at the head of the queue, ; .\n\n* Enqueue ; .\n\n* Print the value at the head of the queue, ; .\n\n* Enqueue ; .\n\n* Enqueue ; .\n\n* Dequeue the value at the head of the queue, ; .\n\n* Dequeue the value at the head of the queue, ; .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:45:00.273Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "queue-using-two-stacks"
+}
