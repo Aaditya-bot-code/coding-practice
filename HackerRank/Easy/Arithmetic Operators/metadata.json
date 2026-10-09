@@ -1,0 +1,15 @@
+{
+  "title": "Arithmetic Operators",
+  "title_slug": "python-arithmetic-operators",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-arithmetic-operators/problem",
+  "tags": [],
+  "description": "Check [Tutorial](https://www.hackerrank.com/challenges/python-arithmetic-operators/tutorial) tab to know how to to solve.\n\n**Task** **\nThe provided code stub reads two integers from STDIN,  and .  Add code to print three lines where:\n\n* The first line contains the sum of the two numbers.\n\n* The second line contains the difference of the two numbers (first - second).\n\n* The third line contains the product of the two numbers.\n\nExample** **\n\nPrint the following:\n\n```\n8\n-2\n15\n\n```\n\nInput Format**\n\nThe first line contains the first integer, . **\nThe second line contains the second integer, .\n\nConstraints**\n\n **\n\nOutput Format**\n\nPrint the three lines as explained above.\n\n**Sample Input 0**\n\n```\n3\n2\n\n```\n\n**Sample Output 0**\n\n```\n5\n1\n6\n\n```\n\n**Explanation 0**",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:52:10.511Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-arithmetic-operators"
+}
