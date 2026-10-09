@@ -1,0 +1,15 @@
+{
+  "title": "Left Rotation",
+  "title_slug": "array-left-rotation",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/array-left-rotation/problem",
+  "tags": [],
+  "description": "A  operation on a circular array shifts each of the array's elements  unit to the left. The elements that fall off the left end reappear at the right end. Given an integer , rotate the array that many steps to the left and return the result.\n\n**Example** **\n\nAfter  rotations, .\n\nFunction Description**\n\nComplete the  function with the following parameters:\n\n* : the amount to rotate by\n\n* : the array to rotate\n\n**Returns**\n\n* : the rotated array\n\n**Input Format**\n\nThe first line contains two space-separated integers that denote , the number of integers, and , the number of left rotations to perform. **\nThe second line contains  space-separated integers that describe .\n\nConstraints**\n\n*\n\n*\n\n*\n\n**Sample Input**\n\n```\nSTDIN      Function\n-----      --------\n5 4         n = 5 d = 4\n1 2 3 4 5  arr = [1, 2, 3, 4, 5]\n\n```\n\n**Sample Output**\n\n```\n5 1 2 3 4\n\n```\n\n**Explanation**\n\nTo perform  left rotations, the array undergoes the following sequence of changes:",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:46:37.657Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "array-left-rotation"
+}
