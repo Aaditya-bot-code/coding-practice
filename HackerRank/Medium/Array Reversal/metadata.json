@@ -1,0 +1,15 @@
+{
+  "title": "Array Reversal",
+  "title_slug": "reverse-array-c",
+  "difficulty": "Medium",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/reverse-array-c/problem",
+  "tags": [],
+  "description": "Given an array, of size , reverse it.\n\nExample: If array, , after reversing it, the array should be, .\n\n**Input Format**\n\nThe first line contains an integer, , denoting the size of the array.\nThe next line contains  space-separated integers denoting the elements of the array.\n\n**Constraints**\n\n **\n, where  is the  element of the array.\n\nOutput Format**\n\nThe output is handled by the code given in the editor, which would print the array.\n\n**Sample Input 0**\n\n```\n6\n16 13 7 2 1 12\n\n```\n\n**Sample Output 0**\n\n```\n12 1 2 7 13 16\n\n```\n\n**Explanation 0**\n\nGiven array,  = . After reversing the array,  =\n\n**Sample Input 1**\n\n```\n7\n1 13 15 20 12 13 2\n\n```\n\n**Sample Output 1**\n\n```\n2 13 12 20 15 13 1\n\n```\n\n**Sample Input 2**\n\n```\n8\n15 5 16 15 17 11 5 11\n\n```\n\n**Sample Output 2**\n\n```\n11 5 11 17 15 16 5 15\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:53:05.550Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "reverse-array-c"
+}
