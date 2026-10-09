@@ -1,0 +1,15 @@
+{
+  "title": "Dynamic Array",
+  "title_slug": "dynamic-array",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/dynamic-array/problem",
+  "tags": [],
+  "description": "* Declare a 2-dimensional array, , with  empty arrays, all zero-indexed.\n\n* Declare an integer, , and initialize it to 0.\n\nYou need to process two types of queries:\n\n*\nQuery:\n Compute .\n\n* Append the integer  to .\n\n*\nQuery:\n Compute .\n\n* Set .\n\n* Store the new value of  in an answers array.\n\n**Notes:** **\n-  is the *bitwise XOR* operation, which corresponds to the `^` operator in most languages. Learn more about it on [Wikipedia](https://en.wikipedia.org/wiki/Exclusive_or).\n\n-  is the modulo operator.\n\n- Finally,  is the number of elements in .\n\nFunction Description**\n\nComplete the  function with the following parameters: **\n- : the number of empty arrays to initialize in\n\n- : 2-D array of integers\n\nReturns**\n\n* : the results of each type 2 query in the order they are presented\n\n**Input Format**\n\nThe first line contains two space-separated integers, , the size of  to create, and , the number of queries, respectively. **\nEach of the  subsequent lines contains a query string, .\n\nConstraints**\n\n*\n\n*\n\n* It is guaranteed that query type  will never query an empty array or index.\n\n**Sample Input**\n\n```\nSTDIN    Function\n-----    --------\n2 5      size of arr[] n = 2, size of queries[] q = 5\n1 0 5    queries = [[1,0,5],[1,1,7],[1,0,3],[2,1,0],[2,1,1]]\n1 1 7\n1 0 3\n2 1 0\n2 1 1\n\n```\n\n**Sample Output**\n\n```\n7\n3\n\n```\n\n**Explanation**\n\n*Initial Values:*\n\n = [ ]\n\n = [ ]\n\n*Query 0:* Append  to .\n\n = [5]\n\n = [ ]\n\n*Query 1:* Append  to .\n\n = [5]\n\n = [7]\n\n*Query 2:* Append  to .\n\n = [5, 3]\n\n = [7]\n\n*Query 3:* Assign the value at index  of  to . Store  in your answer array.\n\n = [5, 3]\n\n = [7]\n\n*Query 4:* Assign the value at index  of  to . Store  in your answer array.\n\n = [5, 3]\n\n = [7]\n\nReturn your answer array [7, 3]. The code stub prints its elements on separate lines.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T16:42:20.373Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "dynamic-array"
+}
