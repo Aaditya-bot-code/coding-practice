@@ -1,0 +1,15 @@
+{
+  "title": "Loops",
+  "title_slug": "python-loops",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-loops/problem",
+  "tags": [],
+  "description": "Check [Tutorial](https://www.hackerrank.com/challenges/python-loops/tutorial) tab to know how to to solve.\n\n**Task** **\nThe provided code stub reads an integer, , from STDIN. For all non-negative integers , print .\n\nExample** **\n\nThe list of non-negative integers that are less than  is .  Print the square of each number on a separate line.\n\n```\n0\n1\n4\n\n```\n\nInput Format**\n\nThe first and only line contains the integer, .\n\n**Constraints**\n\n**Output Format**\n\nPrint  lines, one corresponding to each .\n\n**Sample Input 0**\n\n```\n5\n\n```\n\n**Sample Output 0**\n\n```\n0\n1\n4\n9\n16\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:51:51.001Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-loops"
+}
