@@ -1,0 +1,15 @@
+{
+  "title": "Insert a node at a specific position in a linked list",
+  "title_slug": "insert-a-node-at-a-specific-position-in-a-linked-list",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/insert-a-node-at-a-specific-position-in-a-linked-list/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool) and is accompanied by a video lesson.\n\nGiven a pointer to the head node of a linked list and an integer to insert at a certain position, create a new node with the given integer as its  attribute, insert this node at the desired position, and return the head node.\n\nA position of 0 indicates the head, a position of 1 indicates one node away from the head, and so on. The head pointer given may be null, meaning that the initial list is empty.\n\n**Example** **\n refers to the first node in the list\n\nInsert a node at position  with .  The new list is\n\nFunction Description** **\nComplete the function  with the following parameters:\n\n* : a reference to the head of the list\n\n* : an integer value to insert as data in the new node\n\n* : an integer position to insert the new node, zero-based indexing\n\nReturns**\n\n* : a reference to the head of the revised list\n\n**Input Format**\n\nThe first line contains an integer , the number of elements in the linked list. **\nEach of the next  lines contains an integer SinglyLinkedListNode[i].data.\n\nThe next line contains an integer , the data of the node that is to be inserted.\n\nThe last line contains an integer .\n\nConstraints**\n\n*\n\n* , where  is the  element of the linked list.\n\n* .\n\n**Sample Input**\n\n```\nSTDIN   Function\n-----   --------\n3       n = 3\n16      llist = 16->13->7\n13\n7\n1       data = 1\n2       position = 2\n\n```\n\n**Sample Output**\n\n```\n16 13 1 7\n\n```\n\n**Explanation**\n\nThe initial linked list is . Insert  at the position  which currently has  in it. The updated linked list is .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:44:07.634Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "insert-a-node-at-a-specific-position-in-a-linked-list"
+}
