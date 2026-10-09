@@ -1,0 +1,15 @@
+{
+  "title": "String Split and Join",
+  "title_slug": "python-string-split-and-join",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-string-split-and-join/problem",
+  "tags": [],
+  "description": "In Python, a string can be split on a delimiter.\n\n**Example:**\n\n```\n>>> a = \"this is a string\"\n>>> a = a.split(\" \") # a is converted to a list of strings.\n>>> print a\n['this', 'is', 'a', 'string']\n\n```\n\nJoining a string is simple:\n\n```\n>>> a = \"-\".join(a)\n>>> print a\nthis-is-a-string\n\n```\n\n**Task** **\nYou are given a string. Split the string on a `\" \"` (space) delimiter and join using a `-` hyphen.\n\nFunction Description**\n\nComplete the *split_and_join* function in the editor below.\n\n*split_and_join* has the following parameters:\n\n* *string line:* a string of space-separated words\n\n**Returns**\n\n* *string:* the resulting string\n\n**Input Format** **\nThe one line contains a string consisting of space separated words.\n\nSample Input**\n\n```\nthis is a string\n\n```\n\n**Sample Output**\n\n```\nthis-is-a-string\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:48:17.185Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-string-split-and-join"
+}
