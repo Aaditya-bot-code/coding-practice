@@ -1,0 +1,15 @@
+{
+  "title": "Digit Frequency",
+  "title_slug": "frequency-of-digits-1",
+  "difficulty": "Medium",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/frequency-of-digits-1/problem",
+  "tags": [],
+  "description": "Given a string, , consisting of alphabets and digits, find the frequency of each digit in the given string.\n\n**Input Format**\n\nThe first line contains a string,  which is the given number.\n\n**Constraints**\n\n **\nAll the elements of num are made of english alphabets and digits.\n\nOutput Format**\n\nPrint ten space-separated integers in a single line denoting the frequency of each digit from  to .\n\n**Sample Input 0**\n\n```\na11472o5t6\n\n```\n\n**Sample Output 0**\n\n```\n0 2 1 0 1 1 1 1 0 0\n\n```\n\n**Explanation 0**\n\nIn the given string:\n\n*  occurs two times.\n\n*  and  occur one time each.\n\n* The remaining digits  and  don't occur at all.\n\n**Sample Input 1**\n\n```\nlw4n88j12n1\n\n```\n\n**Sample Output 1**\n\n```\n0 2 1 0 1 0 0 0 2 0\n\n```\n\n**Sample Input 2**\n\n```\n1v88886l256338ar0ekk\n\n```\n\n**Sample Output 2**\n\n```\n1 1 1 2 0 1 2 0 5 0\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:52:56.846Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "frequency-of-digits-1"
+}
