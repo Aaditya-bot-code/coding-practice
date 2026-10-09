@@ -1,0 +1,8 @@
+// HackerRank Problem: Say "Hello, World!" With Python
+// Link: https://www.hackerrank.com/challenges/py-hello-world/problem
+// Difficulty: Easy
+// Language: pypy3
+
+
+my_string="Hello, World!"
+print(my_string)
