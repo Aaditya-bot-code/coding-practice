@@ -1,0 +1,15 @@
+{
+  "title": "Print the Elements of a Linked List",
+  "title_slug": "print-the-elements-of-a-linked-list",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/print-the-elements-of-a-linked-list/problem",
+  "tags": [],
+  "description": "This challenge is part of a [MyCodeSchool](http://www.youtube.com/mycodeschool) tutorial track and is accompanied by a [video lesson](http://www.youtube.com/embed/vcQIFT79_50?theme=light).\n\nThis exercise focuses on traversing a linked list. You are given a pointer to the  node of a linked list. The task is to print the  of each node, one per line. If the head pointer is , indicating the list is empty, nothing should be printed.\n\n**Function Description**\n\nComplete the  function with the following parameter(s):\n\n* : a reference to the head of the list\n\n**Print**\n\n* For each node, print its  value on a new line (console.log in Javascript).\n\n**Input Format**\n\nThe first line of input contains , the number of elements in the linked list. **\nThe next  lines contain one element each, the  values for each node.\n\nNote:** Do not read any input from stdin/console. Complete the printLinkedList function in the editor below.\n\n**Constraints**\n\n*\n\n* , where  is the  element of the linked list.\n\n**Sample Input**\n\n```\nSTDIN   Function\n-----   --------\n2       n = 2\n16      first data value = 16\n13      second data value = 13\n\n```\n\n**Sample Output**\n\n```\n16\n13\n\n```\n\n**Explanation**\n\nThere are two elements in the linked list. They are represented as 16 -> 13 -> NULL. So, the  function should print 16 and 13 each on a new line.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:45:31.220Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "print-the-elements-of-a-linked-list"
+}
