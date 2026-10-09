@@ -1,0 +1,15 @@
+{
+  "title": "Sparse Arrays",
+  "title_slug": "sparse-arrays",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/sparse-arrays/problem",
+  "tags": [],
+  "description": "There is a collection of input strings and a collection of query strings. For each query string, determine how many times it occurs in the list of input strings. Return an array of the results.\n\n**Example**\n\n **\n\nThere are  instances of '',  of '', and  of ''. For each query, add an element to the return array: .\n\nFunction Description**\n\nComplete the function  with the following parameters:\n\n* : an array of strings to search\n\n* : an array of query strings\n\n**Returns**\n\n* : the results of each query\n\n**Input Format**\n\nThe first line contains and integer , the size of . **\nEach of the next  lines contains a string .\n\nThe next line contains , the size of .\n\nEach of the next  lines contains a string .\n\nConstraints**\n\n .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:46:29.020Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "sparse-arrays"
+}
