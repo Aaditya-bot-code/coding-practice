@@ -1,0 +1,15 @@
+{
+  "title": "Sum of Digits of a Five Digit Number",
+  "title_slug": "sum-of-digits-of-a-five-digit-number",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/sum-of-digits-of-a-five-digit-number/problem",
+  "tags": [],
+  "description": "**Objective**\n\nThe modulo operator, `%`, returns the remainder of a division.  For example, `4 % 3 = 1` and `12 % 10 = 2`.  The ordinary division operator, `/`, returns a truncated integer value when performed on integers.  For example, `5 / 3 = 1`.  To get the last digit of a number in base 10, use  as the modulo divisor.\n\n**Task**\n\nGiven a five digit integer, print the sum of its digits.\n\n**Input Format**\n\nThe input contains a single five digit number, .\n\n**Constraints**\n\n**Output Format**\n\nPrint the sum of the digits of the five digit number.\n\n**Sample Input 0**\n\n```\n10564\n\n```\n\n**Sample Output 0**\n\n```\n16\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:54:21.766Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "sum-of-digits-of-a-five-digit-number"
+}
