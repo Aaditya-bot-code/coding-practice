@@ -1,0 +1,15 @@
+{
+  "title": "String Validators",
+  "title_slug": "string-validators",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/string-validators/problem",
+  "tags": [],
+  "description": "Python has built-in string validation methods for basic data. It can check if a string is composed of alphabetical characters, alphanumeric characters, digits, etc.\n\n**[str.isalnum()](https://docs.python.org/2/library/stdtypes.html#str.isalnum)** **\nThis method checks if all the characters of a string are alphanumeric *(a-z, A-Z and 0-9)*.\n\n```\n>>> print 'ab123'.isalnum()\nTrue\n>>> print 'ab123#'.isalnum()\nFalse\n\n```\n\n[str.isalpha()](https://docs.python.org/2/library/stdtypes.html#str.isalpha)** **\nThis method checks if all the characters of a string are alphabetical *(a-z and A-Z)*.\n\n```\n>>> print 'abcD'.isalpha()\nTrue\n>>> print 'abcd1'.isalpha()\nFalse\n\n```\n\n[str.isdigit()](https://docs.python.org/2/library/stdtypes.html#str.isdigit)** **\nThis method checks if all the characters of a string are digits *(0-9)*.\n\n```\n>>> print '1234'.isdigit()\nTrue\n>>> print '123edsd'.isdigit()\nFalse\n\n```\n\n[str.islower()](https://docs.python.org/2/library/stdtypes.html#str.islower)** **\nThis method checks if all the characters of a string are lowercase characters *(a-z)*.\n\n```\n>>> print 'abcd123#'.islower()\nTrue\n>>> print 'Abcd123#'.islower()\nFalse\n\n```\n\n[str.isupper()](https://docs.python.org/2/library/stdtypes.html#str.isupper)** **\nThis method checks if all the characters of a string are uppercase characters *(A-Z)*.\n\n```\n>>> print 'ABCD123#'.isupper()\nTrue\n>>> print 'Abcd123#'.isupper()\nFalse\n\n```\n\nTask**\n\nYou are given a string . **\nYour task is to find out if the string  contains: *alphanumeric characters, alphabetical characters, digits, lowercase and uppercase characters*.\n\nInput Format**\n\nA single line containing a string .\n\n**Constraints**\n\n**Output Format**\n\nIn the first line, print `True` if  has any *alphanumeric characters*. Otherwise, print `False`. **\nIn the second line, print `True` if  has any *alphabetical characters*. Otherwise, print `False`.\n\nIn the third line, print `True` if  has any *digits*. Otherwise, print `False`.\n\nIn the fourth line, print `True` if  has any *lowercase characters*. Otherwise, print `False`.\n\nIn the fifth line, print `True` if  has any *uppercase characters*. Otherwise, print `False`.\n\nSample Input**\n\n```\nqA2\n\n```\n\n**Sample Output**\n\n```\nTrue\nTrue\nTrue\nTrue\nTrue\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:47:33.663Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "string-validators"
+}
