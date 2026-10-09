@@ -1,0 +1,15 @@
+{
+  "title": "Students Marks Sum",
+  "title_slug": "students-marks-sum",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/students-marks-sum/problem",
+  "tags": [],
+  "description": "You are given an array of integers, , denoting the marks scored by students in a class.\n\n* The alternating elements , ,  and so on denote the marks of boys.\n\n* Similarly, , ,  and so on denote the marks of girls.\n\nThe array name, , works as a pointer which stores the base address of that array. In other words,  contains the address where  is stored in the memory.\n\nFor example, let  and  stores *0x7fff9575c05f*. Then, *0x7fff9575c05f* is the memory address of .\n\n*\n\n**Function Description**\n\nComplete the function, marks_summation* in the editor below.\n\n*marks_summation* has the following parameters:\n\n* *int marks[number_of_students]:* the marks for each student\n\n* *int number_of_students:* the size of marks[]\n\n* *char gender:* either 'g' or 'b'\n\n**Returns**\n\n* *int:* the sum of marks for boys if , or of marks of girls if\n\n**Input Format**\n\n* The first line contains , denoting the number of students in the class, hence the number of elements in .\n\n* Each of the  subsequent lines contains .\n\n* The next line contains .\n\n**Constraints**\n\n*\n\n*  (where )\n\n*  =  or\n\n**Sample Input 0**\n\n```\n3\n3\n2\n5\nb\n\n```\n\n**Sample Output 0**\n\n```\n8\n\n```\n\n**Explanation 0**\n\n = [3, 2, 5] and  = .\n\nSo, .\n\n**Sample Input 1**\n\n```\n5\n1\n2\n3\n4\n5\ng\n\n```\n\n**Sample Output 1**\n\n```\n6\n\n```\n\n**Explanation 1**\n\n = [1, 2, 3, 4, 5] and  =\n\nSo,\n          =\n          = .\n\n**Sample Input 2**\n\n```\n1\n5\ng\n\n```\n\n**Sample Output 2**\n\n```\n0\n\n```\n\n**Explanation 2**\n\n = [5] and  =\n\nHere,  does not exist. So,  = .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:53:30.027Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "students-marks-sum"
+}
