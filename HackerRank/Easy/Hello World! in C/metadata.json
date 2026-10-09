@@ -1,0 +1,15 @@
+{
+  "title": "\"Hello World!\" in C",
+  "title_slug": "hello-world-c",
+  "difficulty": "Easy",
+  "language": "c",
+  "url": "https://www.hackerrank.com/challenges/hello-world-c/problem",
+  "tags": [],
+  "description": "**Objective**\n\nIn this challenge, we will learn some basic concepts of C that will get you started with the language. You will need to use the same syntax to read input and write output in many C challenges.  As you work through these problems, review the code stubs to learn about reading from stdin and writing to stdout.\n\n**Task**\n\nThis challenge requires you to print  on a single line, and then print the already provided input string to [stdout](https://en.wikipedia.org/wiki/Standard_streams#Standard_output_.28stdout.29).  If you are not familiar with C, you may want to read about the printf() command.\n\n**Example** **\n\nThe required output is:\n\n```\nHello, World!\nLife is beautiful\n\n```\n\nFunction Descriptio**\n\nComplete the main() function below.\n\nThe main() function has the following input:\n\n* *string s:* a string\n\n**Prints**\n\n* *two strings: * \"Hello, World!\" on one line and the input string on the next line.\n\n**Input Format**\n\nThere is one line of text, .\n\n**Sample Input 0**\n\n```\nWelcome to C programming.\n\n```\n\n**Sample Output 0**\n\n```\nHello, World!\nWelcome to C programming.\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:52:35.447Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "hello-world-c"
+}
