@@ -1,0 +1,15 @@
+{
+  "title": "Python: Division",
+  "title_slug": "python-division",
+  "difficulty": "Easy",
+  "language": "pypy3",
+  "url": "https://www.hackerrank.com/challenges/python-division/problem",
+  "tags": [],
+  "description": "Check the [Tutorial](https://www.hackerrank.com/challenges/python-division/tutorial) tab to know learn about division operators.\n\n**Task** **\nThe provided code stub reads two integers,  and , from STDIN.\n\nAdd logic to print two lines. The first line should contain the result of integer division,  // . The second line should contain the result of float division,  / .\n\nNo rounding or formatting is necessary.\n\nExample** **\n\n* The result of the integer division .\n\n* The result of the float division is .\n\nPrint:\n\n```\n0\n0.6\n\n```\n\nInput Format**\n\nThe first line contains the first integer, . **\nThe second line contains the second integer, .\n\nOutput Format**\n\nPrint the two lines as described above.\n\n**Sample Input 0**\n\n```\n4\n3\n\n```\n\n**Sample Output 0**\n\n```\n1\n1.33333333333\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-09T10:51:58.911Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "python-division"
+}
