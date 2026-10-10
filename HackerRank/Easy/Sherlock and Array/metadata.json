@@ -8,7 +8,7 @@
   "description": "Watson gives Sherlock an array of integers.  His challenge is to find an element of the array such that the sum of all elements to the left is equal to the sum of all elements to the right.\n\n**Example**\n\n is between two subarrays that sum to .\n\nThe answer is  since left and right sum to .\n\nYou will be given arrays of integers and must determine whether there is an element that meets the criterion.  If there is, return `YES`.  Otherwise, return `NO`.\n\n**Function Description**\n\nComplete the *balancedSums* function in the editor below.\n\nbalancedSums has the following parameter(s):\n\n* *int arr[n]:* an array of integers\n\n**Returns**\n\n* *string:* either `YES` or `NO`\n\n**Input Format**\n\nThe first line contains , the number of test cases.\n\nThe next  pairs of lines each represent a test case. **\n- The first line contains , the number of elements in the array .\n\n- The second line contains  space-separated integers  where .\n\nConstraints**\n\n **\n\nSample Input**\n\n```\n2\n3\n1 2 3\n4\n1 2 3 3\n\n```\n\n**Sample Output**\n\n```\nNO\nYES\n\n```\n\n**Explanation**\n\nFor the first test case, no such index exists.\n\nFor the second test case, , therefore index  satisfies the given conditions.",
   "examples": "",
   "constraints": "",
-  "synced_at": "2026-10-10T14:21:39.275Z",
+  "synced_at": "2026-10-10T16:37:47.729Z",
   "platform": "hackerrank",
   "platformId": "hackerrank",
   "problemId": "three-month-preparation-kit-sherlock-and-array"
