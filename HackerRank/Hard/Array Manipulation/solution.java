@@ -1,7 +1,7 @@
 // HackerRank Problem: Array Manipulation
 // Link: https://www.hackerrank.com/challenges/crush/problem
 // Difficulty: Hard
-// Language: java8
+// Language: java15
 
 import java.io.*;
 import java.math.*;
@@ -46,8 +46,9 @@ class Result {
     }
     return max;
     }
+    }
 
-}
+
 
 public class Solution {
     public static void main(String[] args) throws IOException {
