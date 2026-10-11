@@ -1,0 +1,15 @@
+{
+  "title": "2D Array - DS",
+  "title_slug": "2d-array",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/2d-array/problem",
+  "tags": [],
+  "description": "Given a  2D array, , an hourglass is a subset of values with indices falling in the following pattern:\n\n```\na b c\n  d\ne f g\n\n```\n\nThere are  hourglasses in a  array. The  is the sum of the values in an hourglass. Calculate the hourglass sum for every hourglass in , then print the  hourglass sum.\n\n**Example**\n\n```\n-9 -9 -9  1 1 1\n 0 -9  0  4 3 2\n-9 -9 -9  1 2 3\n 0  0  8  6 6 0\n 0  0  0 -2 0 0\n 0  0  1  2 4 0\n\n```\n\nThe  hourglass sums are:\n\n```\n-63, -34, -9, 12,\n-10,   0, 28, 23,\n-27, -11, -2, 10,\n  9,  17, 25, 18\n\n```\n\nThe highest hourglass sum is  from the hourglass beginning at row , column :\n\n```\n0 4 3\n  1\n8 6 6\n\n```\n\n**Note:** If you have already solved the Java domain's *Java 2D Array* challenge, you may wish to skip this challenge.\n\n**Function Description**\n\nComplete the function  with the following parameter(s):\n\n* : a 2-D array of integers\n\n**Returns**\n\n* : the maximum hourglass sum\n\n**Input Format**\n\nEach of the  lines of inputs  contains  space-separated integers .\n\n**Constraints**\n\n*\n\n*\n\n**Sample Input**\n\n```\n1 1 1 0 0 0\n0 1 0 0 0 0\n1 1 1 0 0 0\n0 0 2 4 4 0\n0 0 0 2 0 0\n0 0 1 2 4 0\n\n```\n\n**Sample Output**\n\n```\n19\n\n```\n\n**Explanation**\n\n contains the following hourglasses:\n\n![image](https://s3.amazonaws.com/hr-assets/0/1534256743-35b846ad4a-hourglasssum.png)\n\nThe hourglass with the maximum sum () is:\n\n```\n2 4 4\n  2\n1 2 4\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-11T07:18:31.932Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "2d-array"
+}
