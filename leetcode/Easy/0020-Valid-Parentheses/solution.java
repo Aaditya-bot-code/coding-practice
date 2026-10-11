@@ -13,12 +13,7 @@ class Solution {
             {
                 stack.push(ch);
             }
-            else if((ch == ')' || ch =='}' || ch ==']') && stack.isEmpty())
-            {
-                return false;
-
-            }
-            else if((stack.peek() =='(' && ch ==')') || (stack.peek() == '{' && ch =='}') || (stack.peek() =='[' && ch ==']'))
+            else if( !stack.isEmpty() && ((stack.peek() =='(' && ch ==')') || (stack.peek() == '{' && ch =='}') || (stack.peek() =='[' && ch ==']')))
             {
                 stack.pop();
             }
