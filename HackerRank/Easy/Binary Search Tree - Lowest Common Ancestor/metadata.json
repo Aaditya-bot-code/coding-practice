@@ -1,0 +1,15 @@
+{
+  "title": "Binary Search Tree : Lowest Common Ancestor",
+  "title_slug": "binary-search-tree-lowest-common-ancestor",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/binary-search-tree-lowest-common-ancestor/problem",
+  "tags": [],
+  "description": "You are given pointer to the root of the binary search tree and two values  and . You need to return the lowest common ancestor ([LCA](https://en.wikipedia.org/wiki/Lowest_common_ancestor)) of  and  in the binary search tree.\n\n* **\nIn the diagram above, the lowest common ancestor of the nodes  and  is the node .  Node  is the lowest node which has nodes  and  as descendants.\n\nFunction Description**\n\nComplete the function lca* in the editor below.  It should return a pointer to the lowest common ancestor node of the two values given.\n\nlca has the following parameters: **\n-  root: a pointer to the root node of a binary search tree\n\n-  v1: a node.data value\n\n-  v2: a node.data value\n\nInput Format**\n\nThe first line contains an integer, , the number of nodes in the tree. **\nThe second line contains  space-separated integers representing  values.\n\nThe third line contains two space-separated integers,  and .\n\nTo use the test data, you will have to create the binary search tree yourself.  Here on the platform, the tree will be created for you.\n\nConstraints**\n\n **\n\nThe tree will contain nodes with *data* equal to  and .\n\nOutput Format**\n\nReturn the a pointer to the node that is the lowest common ancestor of  and .\n\n**Sample Input**\n\n```\n6\n4 2 3 1 7 6\n1 7\n\n```\n\n![image](https://s3.amazonaws.com/hr-assets/0/1527870675-1cfffe0a8a-LCASample.png)\n\n and .\n\n**Sample Output**\n\n[reference to node 4]\n\n**Explanation**\n\nLCA of  and  is , the root in this case.\n\nReturn a pointer to the node.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-11T11:50:08.648Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "binary-search-tree-lowest-common-ancestor"
+}
