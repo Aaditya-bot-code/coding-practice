@@ -1,0 +1,15 @@
+{
+  "title": "Strings: Making Anagrams",
+  "title_slug": "ctci-making-anagrams",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/ctci-making-anagrams/problem",
+  "tags": [],
+  "description": "A student is taking a cryptography class and has found *anagrams* to be very useful. Two strings are anagrams of each other if the first string's letters can be rearranged to form the second string. In other words, both strings must contain the same exact letters in the same exact frequency. For example, `bacdc` and `dcbac` are anagrams, but `bacdc` and `dcbad` are not.\n\nThe student decides on an encryption scheme that involves two large strings.  The encryption is dependent on the minimum number of character deletions required to make the two strings anagrams. Determine this number.\n\nGiven two strings,  and , that may or may not be of the same length, determine the minimum number of character deletions required to make  and  anagrams. Any characters can be deleted from either of the strings.\n\n**Example** **\n\nDelete  from  and  from  so that the remaining strings are  and  which are anagrams. This takes  character deletions.\n\nFunction Description**\n\nComplete the *makeAnagram* function in the editor below.\n\nmakeAnagram has the following parameter(s):\n\n* *string a*: a string\n\n* *string b*: another string\n\n**Returns**\n\n* *int:* the minimum total characters that must be deleted\n\n**Input Format**\n\nThe first line contains a single string, . **\nThe second line contains a single string, .\n\nConstraints**\n\n*\n\n* The strings  and  consist of lowercase English alphabetic letters, ascii[a-z].\n\n**Sample Input**\n\n```\ncde\nabc\n\n```\n\n**Sample Output**\n\n```\n4\n\n```\n\n**Explanation**\n\nDelete the following characters from the strings make them anagrams:\n\n* Remove `d` and `e` from `cde` to get `c`.\n\n* Remove `a` and `b` from `abc` to get `c`.\n\nIt takes  deletions to make both strings anagrams.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-11T07:39:30.368Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "ctci-making-anagrams"
+}
