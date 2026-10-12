@@ -1,0 +1,15 @@
+{
+  "title": "Anagram",
+  "title_slug": "anagram",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/anagram/problem",
+  "tags": [],
+  "description": "Two words are [*anagrams*](https://en.wikipedia.org/wiki/Anagram) of one another if their letters can be rearranged to form the other word.\n\nGiven a string, split it into two contiguous substrings of equal length.  Determine the minimum number of characters to change to make the two substrings into anagrams of one another.\n\n**Example** **\n\nBreak  into two parts: 'abc' and 'cde'.  Note that all letters have been used, the substrings are contiguous and their lengths are equal.  Now you can change 'a' and 'b' in the first substring to 'd' and 'e' to have 'dec' and 'cde' which are anagrams.  Two changes were necessary.\n\nFunction Description**\n\nComplete the *anagram* function in the editor below.\n\nanagram has the following parameter(s):\n\n* *string s:* a string\n\n**Returns**\n\n* *int:* the minimum number of characters to change or -1.\n\n**Input Format**\n\nThe first line will contain an integer, , the number of test cases. **\nEach test case will contain a string .\n\nConstraints**\n\n*  **\n\n*\n\n*  consists only of characters in the range ascii[a-z].\n\nSample Input**\n\n```\n6\naaabbb\nab\nabc\nmnop\nxyyx\nxaxbbbxx\n\n```\n\n**Sample Output**\n\n```\n3\n1\n-1\n2\n0\n1\n\n```\n\n**Explanation**\n\n*Test Case #01:* We split  into two strings ='aaa' and ='bbb'.  We have to replace all three characters from the first string with 'b' to make the strings anagrams.\n\n*Test Case #02:* You have to replace 'a' with 'b', which will  generate \"bb\".\n\n*Test Case #03:* It is not possible for two strings of unequal length to be anagrams of one another.\n\n*Test Case #04:* We have to replace both the characters of first string (\"mn\") to make it an anagram of the other one.\n\n*Test Case #05:*  and  are already anagrams of one another.\n\n*Test Case #06:* Here *S1 = \"xaxb\"* and *S2 = \"bbxx\"*. You must replace 'a' from *S1* with 'b' so that *S1 = \"xbxb\"*.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-12T16:24:21.204Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "anagram"
+}
