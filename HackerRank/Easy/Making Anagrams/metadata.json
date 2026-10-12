@@ -1,0 +1,15 @@
+{
+  "title": "Making Anagrams",
+  "title_slug": "making-anagrams",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/making-anagrams/problem",
+  "tags": [],
+  "description": "We consider two strings to be anagrams of each other if the first string's letters can be rearranged to form the second string. In other words, both strings must contain the same exact letters in the same exact frequency. For example, `bacdc` and `dcbac` are anagrams, but `bacdc` and `dcbad` are not.\n\nAlice is taking a cryptography class and finding *anagrams* to be very useful. She decides on an encryption scheme involving two large strings where encryption is dependent on the minimum number of character deletions required to make the two strings anagrams. Can you help her find this number?\n\nGiven two strings,  and , that may not be of the same length, determine the minimum number of character deletions required to make  and  anagrams. Any characters can be deleted from either of the strings.\n\n**Example**. **\n\nThe only characters that match are the 's so we have to remove  from  and  from  for a total of  deletions.\n\nFunction Description**\n\nComplete the *makingAnagrams* function in the editor below.\n\nmakingAnagrams has the following parameter(s):\n\n* *string s1:* a string\n\n* *string s2:* a string\n\n**Returns**\n\n* *int:* the minimum number of deletions needed\n\n**Input Format**\n\nThe first line contains a single string, . **\nThe second line contains a single string, .\n\nConstraints**\n\n*\n\n* It is guaranteed that  and  consist of lowercase English letters, ascii[a-z].\n\n**Sample Input**\n\n```\ncde\nabc\n\n```\n\n**Sample Output**\n\n```\n4\n\n```\n\n**Explanation**\n\nDelete the following characters from our two strings to turn them into anagrams:\n\n* Remove `d` and `e` from `cde` to get `c`.\n\n* Remove `a` and `b` from `abc` to get `c`.\n\n characters have to be deleted to make both strings anagrams.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-12T16:13:02.706Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "making-anagrams"
+}
