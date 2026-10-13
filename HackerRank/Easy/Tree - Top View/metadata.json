@@ -1,0 +1,15 @@
+{
+  "title": "Tree : Top View",
+  "title_slug": "tree-top-view",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/tree-top-view/problem",
+  "tags": [],
+  "description": "Given a pointer to the root of a binary tree, print the top view of the binary tree.\n\nThe tree as seen from the top the nodes, is called the top view of the tree.\n\nFor example :\n\n```\n   1\n    \\\n     2\n      \\\n       5\n      /  \\\n     3    6\n      \\\n       4\n\n```\n\nTop View :\n\nComplete the function  and print the resulting values on a single line separated by space.\n\n**Input Format**\n\nYou are given a function,\n\n```\nvoid topView(node * root) {\n\n}\n\n```\n\n**Constraints**\n\n Nodes in the tree\n\n**Output Format**\n\nPrint the values on a single line separated by space.\n\n**Sample Input**\n\n```\n   1\n    \\\n     2\n      \\\n       5\n      /  \\\n     3    6\n      \\\n       4\n\n```\n\n**Sample Output**\n\n1 2 5 6\n\n**Explanation**\n\n```\n   1\n    \\\n     2\n      \\\n       5\n      /  \\\n     3    6\n      \\\n       4\n\n```\n\nFrom the top, only nodes  are visible.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-13T14:53:01.711Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "tree-top-view"
+}
