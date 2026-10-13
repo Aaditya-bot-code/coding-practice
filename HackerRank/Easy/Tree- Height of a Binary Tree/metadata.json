@@ -1,0 +1,15 @@
+{
+  "title": "Tree: Height of a Binary Tree",
+  "title_slug": "tree-height-of-a-binary-tree",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/tree-height-of-a-binary-tree/problem",
+  "tags": [],
+  "description": "The height of a binary tree is the number of edges between the tree's root and its furthest leaf.  For example, the following binary tree is of height :\n\n* **\nFunction Description**\n\nComplete the getHeight* or *height* function in the editor.  It must return the height of a binary tree as an integer.\n\ngetHeight or height has the following parameter(s):\n\n* *root*: a reference to the root of a binary tree.\n\n**Note** -The Height of binary tree with single node is taken as zero.\n\n**Input Format**\n\nThe first line contains an integer , the number of nodes in the tree. **\nNext line contains  space separated integer where th integer denotes node[i].data.\n\nNote**:  Node values are inserted into a binary search tree before a reference to the tree's root node is passed to your function.  In a binary search tree, all nodes on the left branch of a node are less than the node value.  All values on the right branch are greater than the node value.\n\n**Constraints**\n\n **\n\nOutput Format**\n\nYour function should return a single integer denoting the height of the binary tree.\n\n**Sample Input**\n\n![image](https://s3.amazonaws.com/hr-assets/0/1527625966-0f80a8e1a4-treeDepthSample0.png)\n\n**Sample Output**\n\n```\n3\n\n```\n\n**Explanation**\n\nThe longest root-to-leaf path is shown below:\n\n![image](https://s3.amazonaws.com/hr-assets/0/1527626088-807ca5fc63-treeDepthSample1.png)\n\nThere are  nodes in this path that are connected by  edges, meaning our binary tree's .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-13T14:26:43.256Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "tree-height-of-a-binary-tree"
+}
