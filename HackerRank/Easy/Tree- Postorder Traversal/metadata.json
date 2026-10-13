@@ -1,0 +1,15 @@
+{
+  "title": "Tree: Postorder Traversal",
+  "title_slug": "tree-postorder-traversal",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/tree-postorder-traversal/problem",
+  "tags": [],
+  "description": "Complete the  function in the editor below.  It received  parameter: a pointer to the root of a binary tree. It must print the values in the tree's postorder traversal as a single line of space-separated values.\n\n**Input Format**\n\nOur test code passes the root node of a binary tree to the  function.\n\n**Constraints**\n\n Nodes in the tree\n\n**Output Format**\n\nPrint the tree's postorder traversal as a single line of space-separated values.\n\n**Sample Input**\n\n```\n     1\n      \\\n       2\n        \\\n         5\n        /  \\\n       3    6\n        \\\n         4\n\n```\n\n**Sample Output**\n\n```\n4 3 6 5 2 1\n\n```\n\n**Explanation**\n\nThe postorder traversal is shown.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-13T14:17:12.306Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "tree-postorder-traversal"
+}
