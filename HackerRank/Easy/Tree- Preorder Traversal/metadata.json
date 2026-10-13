@@ -1,0 +1,15 @@
+{
+  "title": "Tree: Preorder Traversal",
+  "title_slug": "tree-preorder-traversal",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/tree-preorder-traversal/problem",
+  "tags": [],
+  "description": "Complete the  function in the editor below, which has  parameter: a pointer to the root of a binary tree. It must print the values in the tree's preorder traversal as a single line of space-separated values.\n\n**Input Format**\n\nOur test code passes the root node of a binary tree to the *preOrder* function.\n\n**Constraints**\n\n Nodes in the tree\n\n**Output Format**\n\nPrint the tree's preorder traversal as a single line of space-separated values.\n\n**Sample Input**\n\n```\n     1\n      \\\n       2\n        \\\n         5\n        /  \\\n       3    6\n        \\\n         4\n\n```\n\n**Sample Output**\n\n```\n1 2 5 3 4 6\n\n```\n\n**Explanation**\n\nThe preorder traversal of the binary tree is printed.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-13T14:13:13.649Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "tree-preorder-traversal"
+}
