@@ -1,0 +1,15 @@
+{
+  "title": "Compare the Triplets",
+  "title_slug": "compare-the-triplets",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/compare-the-triplets/problem",
+  "tags": [],
+  "description": "Alice and Bob each created one problem for HackerRank. A reviewer rates the two challenges, awarding points on a scale from *1* to *100* for three categories: *problem clarity*, *originality*, and *difficulty*.\n\nThe rating for Alice's challenge is the triplet *a = (a[0], a[1], a[2])*, and the rating for Bob's challenge is the triplet *b = (b[0], b[1], b[2])*.\n\nThe task is to calculate their comparison points by comparing each category:\n\n* If *a[i] > b[i]*, then Alice is awarded *1* point.\n\n* If *a[i] < b[i]*, then Bob is awarded *1* point.\n\n* If *a[i] = b[i]*, then neither person receives a point.\n\n**Example**\n\n*a = [1, 2, 3]* **\n*b = [3, 2, 1]*\n\n* For elements *0*, Bob is awarded a point because *a[0] < b[0]*.\n\n* For the equal elements *a[1]* and *b[1]*, no points are earned.\n\n* Finally, for elements *2*, *a[2] > b[2]* so Alice receives a point.\n\nThe return array is *[1, 1]* with Alice's score first and Bob's second.\n\nFunction Description**\n\nComplete the function *compareTriplets* with the following parameter(s):\n\n* *int a[3]*: Alice's challenge rating\n\n* *int b[3]*: Bob's challenge rating\n\n**Returns**\n\n* *int[2]*: the first element is Alice's score and the second is Bob's score\n\n**Input Format**\n\nThe first line contains *3* space-separated integers, *a[0]*, *a[1]*, and *a[2]*, the respective values in triplet *a*. **\nThe second line contains *3* space-separated integers, *b[0]*, *b[1]*, and *b[2]*, the respective values in triplet *b*.\n\nConstraints**\n\n* *1 ≤ a[i] ≤ 100*\n\n* *1 ≤ b[i] ≤ 100*\n\n**Sample Input 0**\n\n```\n5 6 7\n3 6 10\n\n```\n\n**Sample Output 0**\n\n```\n1 1\n\n```\n\n**Explanation 0**\n\nIn this example:\n\n*\n\n*\n\nNow, let's compare each individual score:\n\n* , so Alice receives  point.\n\n* , so nobody receives a point.\n\n* , so Bob receives  point.\n\nAlice's comparison score is , and Bob's comparison score is . Thus, we return the array .\n\n**Sample Input 1**\n\n```\n17 28 30\n99 16 8\n\n```\n\n**Sample Output 1**\n\n```\n2 1\n\n```\n\n**Explanation 1**\n\nComparing the  elements,  so Bob receives a point.\n\nComparing the  and  elements,  and  so Alice receives two points.\n\nThe return array is .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T14:30:39.657Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "compare-the-triplets"
+}
