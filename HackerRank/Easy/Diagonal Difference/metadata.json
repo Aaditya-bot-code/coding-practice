@@ -1,0 +1,15 @@
+{
+  "title": "Diagonal Difference",
+  "title_slug": "diagonal-difference",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/diagonal-difference/problem",
+  "tags": [],
+  "description": "Given a square matrix, calculate the absolute difference between the sums of its diagonals.\n\nFor example, the square matrix  is shown below:\n\n```\n1 2 3\n4 5 6\n9 8 9\n\n```\n\n* The left-to-right diagonal = .\n\n* The right-to-left diagonal = .\n\nTheir absolute difference is .\n\n**Function description**\n\nComplete the  function with the following parameter:\n\n* : a 2-D array of integers\n\n**Return**\n\n* : the absolute difference in sums along the diagonals\n\n**Input Format**\n\nThe first line contains a single integer, ,  the number of rows and columns in the square matrix . **\nEach of the next  lines describes a row, , and consists of  space-separated integers .\n\nConstraints**\n\n*\n\n**Sample Input**\n\n```\nSTDIN      Function\n-----      --------\n3           arr[][] sizes n = 3, m = 3\n11 2 4     arr = [[11, 2, 4], [4, 5, 6], [10, 8, -12]]\n4 5 6\n10 8 -12\n\n```\n\n**Sample Output**\n\n```\n15\n\n```\n\n**Explanation**\n\nThe primary diagonal is:\n\n```\n11\n   5\n     -12\n\n```\n\nSum across the primary diagonal: .\n\nThe secondary diagonal is:\n\n```\n     4\n   5\n10\n\n```\n\nSum across the secondary diagonal:  **\nDifference:\n\nNote:** |x| is the [absolute value](https://www.mathsisfun.com/numbers/absolute-value.html) of x.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T14:40:56.966Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "diagonal-difference"
+}
