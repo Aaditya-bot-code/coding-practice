@@ -1,0 +1,15 @@
+{
+  "title": "A Very Big Sum",
+  "title_slug": "a-very-big-sum",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/a-very-big-sum/problem",
+  "tags": [],
+  "description": "In this challenge, you need to calculate and print the sum of elements in an array, considering that some integers may be very large.\n\n**Function Description**\n\nComplete the  function with the following parameter(s):\n\n* : an array of integers\n\n**Return**\n\n* : the sum of the array elements\n\n**Input Format**\n\nThe first line of the input consists of an integer . **\nThe next line contains  space-separated integers contained in the array.\n\nOutput Format**\n\nReturn the integer sum of the elements in the array.\n\n**Constraints** **\n\nSample Input**\n\n```\nSTDIN                                                   Function\n-----                                                   --------\n5                                                       arr[] size n = 5\n1000000001 1000000002 1000000003 1000000004 1000000005  arr[...]\n\n```\n\n**Output**\n\n```\n5000000015\n\n```\n\n**Note:**\n\nThe range of the 32-bit integer is .\n\nWhen we add several integer values, the resulting sum might exceed the above range. You might need to use long int C/C++/Java to store such sums.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-14T14:34:00.666Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "a-very-big-sum"
+}
