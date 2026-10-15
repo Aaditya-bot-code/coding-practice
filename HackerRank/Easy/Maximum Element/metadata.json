@@ -1,0 +1,15 @@
+{
+  "title": "Maximum Element",
+  "title_slug": "maximum-element",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/maximum-element/problem",
+  "tags": [],
+  "description": "You have an empty sequence, and you will be given  queries. Each query is one of these three types:\n\n```\n1 x  -Push the element x into the stack.\n2    -Delete the element present at the top of the stack.\n3    -Print the maximum element in the stack.\n\n```\n\n**Function Description**\n\nComplete the *getMax* function in the editor below.\n\n*getMax* has the following parameters: **\n- *string operations[n]:* operations as strings\n\nReturns** **\n- *int[]:* the answers to each type 3 query\n\nInput Format**\n\nThe first line of input contains an integer, . The next  lines each contain an above mentioned query.\n\n**Constraints**\n\n**Constraints** **\n\nAll queries are valid.\n\nSample Input**\n\n```\nSTDIN   Function\n-----   --------\n10      operations[] size n = 10\n1 97    operations = ['1 97', '2', '1 20', ....]\n2\n1 20\n2\n1 26\n1 20\n2\n3\n1 91\n3\n\n```\n\n**Sample Output**\n\n```\n26\n91\n\n```",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-15T15:31:51.198Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "maximum-element"
+}
