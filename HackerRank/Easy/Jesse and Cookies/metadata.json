@@ -1,0 +1,15 @@
+{
+  "title": "Jesse and Cookies",
+  "title_slug": "jesse-and-cookies",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/jesse-and-cookies/problem",
+  "tags": [],
+  "description": "Jesse loves cookies and wants the sweetness of some cookies to be greater than value . To do this, two cookies with the least sweetness are repeatedly mixed. This creates a special combined cookie with:\n\n*sweetness*  *Least sweet cookie*    *2nd least sweet cookie*).\n\nThis occurs until all the cookies have a sweetness  .\n\nGiven the sweetness of a number of cookies, determine the minimum number of operations required. If it is not possible, return .\n\n**Example** **\n\nThe smallest values are .\n\nRemove them then return  to the array.  Now .\n\nRemove  and return  to the array.  Now .\n\nRemove , return  and .\n\nFinally, remove  and return  to .  Now .\n\nAll values are  so the process stops after  iterations.  Return .\n\nFunction Description** **\nComplete the *cookies* function in the editor below.\n\n*cookies* has the following parameters:\n\n* *int k:* the threshold value\n\n* *int A[n]:* an array of sweetness values\n\nReturns**\n\n* *int:* the number of iterations required or\n\n**Input Format**\n\nThe first line has two space-separated integers,  and , the size of  and  the minimum required sweetness respectively.\n\nThe next line contains  space-separated integers, .\n\n**Constraints**\n\n **\n\nSample Input**\n\n```\nSTDIN               Function\n-----               --------\n6 7                 A[] size n = 6, k = 7\n1 2 3 9 10 12       A = [1, 2, 3, 9, 10, 12]\n\n```\n\n**Sample Output**\n\n```\n2\n\n```\n\n**Explanation**\n\nCombine the first two cookies to create a cookie with *sweetness*  =\n\nAfter this operation, the cookies are .\n\nThen, combine the cookies with sweetness  and sweetness , to create a cookie with resulting *sweetness*  =\n\nNow, the cookies are .\n\nAll the cookies have a sweetness .\n\nThus,  operations are required to increase the sweetness.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-15T15:42:34.273Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "jesse-and-cookies"
+}
