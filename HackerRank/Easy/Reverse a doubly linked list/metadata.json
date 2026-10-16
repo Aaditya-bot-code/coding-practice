@@ -1,0 +1,15 @@
+{
+  "title": "Reverse a doubly linked list",
+  "title_slug": "reverse-a-doubly-linked-list",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/reverse-a-doubly-linked-list/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool)\n\nGiven the pointer to the head node of a doubly linked list, reverse the order of the nodes in place. That is, change the *next* and *prev* pointers of the nodes so that the direction of the list is reversed. Return a reference to the head node of the reversed list.\n\n**Note:** The head node might be NULL to indicate that the list is empty.\n\n**Function Description**\n\nComplete the *reverse* function in the editor below.\n\nreverse has the following parameter(s):\n\n* *DoublyLinkedListNode head*: a reference to the head of a DoublyLinkedList\n\nReturns **\n- *DoublyLinkedListNode*: a reference to the head of the reversed list\n\nInput Format**\n\nThe first line contains an integer , the number of test cases.\n\nEach test case is of the following format:\n\n* The first line contains an integer , the number of elements in the linked list.\n\n* The next  lines contain an integer each denoting an element of the linked list.\n\n**Constraints**\n\n*\n\n*\n\n*\n\n**Output Format**\n\nReturn a reference to the head of your reversed list.  The provided code will print the reverse array as a one line of space-separated integers for each test case.\n\n**Sample Input**\n\n```\n1\n4\n1\n2\n3\n4\n\n```\n\n**Sample Output**\n\n```\n4 3 2 1\n\n```\n\n**Explanation**\n\nThe initial doubly linked list is:\n\nThe reversed doubly linked list is:",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-16T14:51:04.488Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "reverse-a-doubly-linked-list"
+}
