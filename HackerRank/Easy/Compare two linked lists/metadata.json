@@ -1,0 +1,15 @@
+{
+  "title": "Compare two linked lists",
+  "title_slug": "compare-two-linked-lists",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/compare-two-linked-lists/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool)\n\nYou’re given the pointer to the head nodes of two linked lists. Compare the data in the nodes of the linked lists to check if they are equal. If all data attributes are equal and the lists are the same length, return .  Otherwise, return .\n\n**Example**\n\n **\n\nThe two lists have equal data attributes for the first  nodes.   is longer, though, so the lists are not equal.  Return .\n\nFunction Description**\n\nComplete the *compare_lists* function in the editor below.\n\n*compare_lists* has the following parameters:\n\n* *SinglyLinkedListNode llist1:* a reference to the head of a list\n\n* *SinglyLinkedListNode llist2:* a reference to the head of a list\n\n**Returns**\n\n* *int:* return 1 if the lists are equal, or 0 otherwise\n\n**Input Format**\n\nThe first line contains an integer , the number of test cases.\n\nEach of the test cases has the following format: **\nThe first line contains an integer , the number of nodes in the first linked list.\n\nEach of the next  lines contains an integer, each a value for a data attribute.\n\nThe next line contains an integer , the number of nodes in the second linked list.\n\nEach of the next  lines contains an integer, each a value for a data attribute.\n\nConstraints**\n\n*\n\n*\n\n*\n\n**Output Format**\n\nCompare the two linked lists and `return` 1 if the lists are equal. Otherwise, `return` 0. Do NOT print anything to stdout/console.\n\nThe output is handled by the code in the editor and it is as follows:\n\nFor each test case, in a new line, print  if the two lists are equal, else print .\n\n**Sample Input**\n\n```\n2\n2\n1\n2\n1\n1\n2\n1\n2\n2\n1\n2\n\n```\n\n**Sample Output**\n\n```\n0\n1\n\n```\n\n**Explanation**\n\nThere are  test cases, each with a pair of linked lists.\n\n*\nIn the first case, linked lists are: 1 -> 2 -> NULL and 1 -> NULL\n\n*\nIn the second case, linked lists are: 1 -> 2 -> NULL and 1 -> 2 -> NULL",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-16T14:58:06.434Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "compare-two-linked-lists"
+}
