@@ -1,0 +1,15 @@
+{
+  "title": "Cycle Detection",
+  "title_slug": "detect-whether-a-linked-list-contains-a-cycle",
+  "difficulty": "Medium",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/detect-whether-a-linked-list-contains-a-cycle/problem",
+  "tags": [],
+  "description": "A linked list is said to contain a *cycle* if any node is visited more than once while traversing the list.  Given a pointer to the head of a linked list, determine if it contains a cycle.  If it does, return .  Otherwise, return .\n\n**Example**\n\n refers to the list of nodes\n\nThe numbers shown are the node numbers, not their data values.  There is no cycle in this list so return .\n\n refers to the list of nodes\n\nThere is a cycle where node 3 points back to node 1, so return .\n\n**Function Description**\n\nComplete the *has_cycle* function in the editor below.\n\nIt has the following parameter:\n\n* *SinglyLinkedListNode pointer head:* a reference to the head of the list\n\n**Returns**\n\n* *int:*  if there is a cycle or  if there is not\n\n**Note:** If the list is empty,  will be *null*.\n\n**Input Format**\n\nThe code stub reads from stdin and passes the appropriate argument to your function. The custom test cases format will not be described for this question due to its complexity.  Expand the section for the main function and review the code if you would like to figure out how to create a custom case.\n\n**Constraints**\n\n*\n\n**Sample Input**\n\nReferences to each of the following linked lists are passed as arguments to your function:\n\n![Sample Inputs](https://s3.amazonaws.com/hr-challenge-images/1163/1463778594-900a0ae522-inputs.png)\n\n**Sample Output**\n\n```\n0\n1\n\n```\n\n**Explanation**\n\n* The first list has no cycle, so return .\n\n* The second list has a cycle, so return .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-18T14:03:21.225Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "detect-whether-a-linked-list-contains-a-cycle"
+}
