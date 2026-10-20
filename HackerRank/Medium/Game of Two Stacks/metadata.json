@@ -1,0 +1,15 @@
+{
+  "title": "Game of Two Stacks",
+  "title_slug": "game-of-two-stacks",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/game-of-two-stacks/problem",
+  "tags": [],
+  "description": "Alexa has two stacks of non-negative integers, stack  and stack  where index  denotes the top of the stack. Alexa challenges Nick to play the following game:\n\n* In each move, Nick can remove one integer from the top of either stack  or stack .\n\n* Nick keeps a running sum of the integers he removes from the two stacks.\n\n* Nick is disqualified from the game if, at any point, his running sum becomes greater than some integer  given at the beginning of the game.\n\n* Nick's *final score* is the total number of integers he has removed from the two stacks.\n\nGiven , , and  for  games, find the maximum possible score Nick can achieve.\n\n**Example** **\n\nThe maximum number of values Nick can remove is .  There are two sets of choices with this result.\n\n* Remove  from  with a sum of .\n\n* Remove  from  and  from  with a sum of .\n\nFunction Description** **\nComplete the *twoStacks* function in the editor below.\n\n*twoStacks* has the following parameters:\n- *int maxSum:* the maximum allowed sum\n\n- *int a[n]:* the first stack\n\n- *int b[m]:* the second stack\n\nReturns** **\n- *int:* the maximum number of selections Nick can make\n\nInput Format**\n\nThe first line contains an integer,  (the number of games). The  subsequent lines describe each game in the following format:\n\n* The first line contains three space-separated integers describing the respective values of  (the number of integers in stack ),  (the number of integers in stack ), and  (the number that the sum of the integers removed from the two stacks cannot exceed).\n\n* The second line contains  space-separated integers, the respective values of .\n\n* The third line contains  space-separated integers, the respective values of .\n\n**Constraints**\n\n*\n\n*\n\n*\n\n*\n\n**Subtasks**\n\n*  for  of the maximum score.\n\n**Sample Input 0**\n\n```\n1\n5 4 10\n4 2 4 6 1\n2 1 8 5\n\n```\n\n**Sample Output 0**\n\n```\n4\n\n```\n\n**Explanation 0**\n\nThe two stacks initially look like this:\n\n![image](https://s3.amazonaws.com/hr-assets/0/1485853935-9b24f12026-twoarray3.png)\n\nThe image below depicts the integers Nick should choose to remove from the stacks. We print  as our answer, because that is the maximum number of integers that can be removed from the two stacks without the sum exceeding .\n\n![image](https://s3.amazonaws.com/hr-assets/0/1485849154-50c4a29f7d-twoarray2.png)\n\n(There can be multiple ways to remove the integers from the stack, the image shows just one of them.)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-20T15:47:01.608Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "game-of-two-stacks"
+}
