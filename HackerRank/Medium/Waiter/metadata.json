@@ -1,0 +1,15 @@
+{
+  "title": "Waiter",
+  "title_slug": "waiter",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/waiter/problem",
+  "tags": [],
+  "description": "You are a waiter at a party.  There is a pile of numbered plates.  Create an empty  array.  At each iteration, , remove each plate from the top of the stack in order.  Determine if the number on the plate is evenly divisible by the  prime number.  If it is, stack it in pile .  Otherwise, stack it in stack .  Store the values in  from top to bottom in .  In the next iteration, do the same with the values in stack .  Once the required number of iterations is complete, store the remaining values in  in , again from top to bottom.  Return the  array.\n\n**Example**\n\n **\n\nAn abbreviated list of primes is .  Stack the plates in reverse order.\n\nBegin iterations.  On the first iteration, check if items are divisible by .\n\nMove  elements to .\n\nOn the second iteration, test if  elements are divisible by .\n\nMove  elmements to .\n\nAnd on the third iteration, test if  elements are divisible by .\n\nMove  elmements to .\n\nAll iterations are complete, so move the remaining elements in , from top to bottom, to .\n\n.  Return this list.\n\nFunction Description**\n\nComplete the *waiter* function in the editor below.\n\n*waiter* has the following parameters:\n\n* *int number[n]:* the numbers on the plates\n\n* *int q:* the number of iterations\n\n**Returns**\n\n* *int[n]:* the numbers on the plates after processing\n\n**Input Format**\n\nThe first line contains two space separated integers,  and . **\nThe next line contains  space separated integers representing the initial pile of plates, i.e., .\n\nConstraints**\n\n **\n\nSample Input 0**\n\n```\n5 1\n3 4 7 6 5\n\n```\n\n**Sample Output 0**\n\n```\n4\n6\n3\n7\n5\n\n```\n\n**Explanation 0**\n\nInitially:\n\n = [3, 4, 7, 6, 5]<-TOP\n\nAfter 1 iteration (divide by 2, the 1st prime number):\n\n = [5, 7, 3]<-TOP\n\n = [6, 4]<-TOP\n\nMove  elements to .\n\nAll iterations are complete, so move  elements to .\n\n.\n\n**Sample Input 1**\n\n```\n5 2\n3 3 4 4 9\n\n```\n\n**Sample Output 1**\n\n```\n4\n4\n9\n3\n3\n\n```\n\n**Explanation 1**\n\nInitially:\n\n = [3, 3, 4, 4, 9]<-TOP\n\nAfter  iteration (divide by 2):\n\n = [9, 3, 3]<-TOP\n\n = [4, 4]<-TOP\n\nMove  to .\n\nAfter  iteration (divide by 3):\n\n = []<- TOP\n\n = [3, 3, 9]<-TOP\n\nMove  elements to .\n\nThere are no values remaining in .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-21T15:56:14.438Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "waiter"
+}
