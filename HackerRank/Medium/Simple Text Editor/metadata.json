@@ -1,0 +1,15 @@
+{
+  "title": "Simple Text Editor",
+  "title_slug": "simple-text-editor",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/simple-text-editor/problem",
+  "tags": [],
+  "description": "Implement a simple text editor. The editor initially contains an empty string, . Perform  operations of the following  types:\n\n* *append* - Append string  to the end of .\n\n* *delete* - Delete the last  characters of .\n\n* *print* - Print the  character of .\n\n* *undo* - Undo the last (not previously undone) operation of type  or , reverting  to the state it was in prior to that operation.\n\n**Example**\n\n **\n\n```\noperation\nindex   S       ops[index]  explanation\n-----   ------  ----------  -----------\n0       abcde   1 fg        append fg\n1       abcdefg 3 6         print the 6th letter - f\n2       abcdefg 2 5         delete the last 5 letters\n3       ab      4           undo the last operation, index 2\n4       abcdefg 3 7         print the 7th characgter - g\n5       abcdefg 4           undo the last operation, index 0\n6       abcde   3 4         print the 4th character - d\n\n```\n\nThe results should be printed as:\n\n```\nf\ng\nd\n\n```\n\nInput Format**\n\nThe first line contains an integer, , denoting the number of operations. **\nEach line  of the  subsequent lines (where ) defines an operation to be performed. Each operation starts with a single integer,  (where ), denoting a type of operation as defined in the *Problem Statement* above. If the operation requires an argument,  is followed by its space-separated argument. For example, if  and , line  will be `1 abcd`.\n\nConstraints**\n\n*\n\n*\n\n* The sum of the lengths of all  in the input .\n\n* The sum of  over all delete operations .\n\n* All input characters are lowercase English letters.\n\n* It is guaranteed that the sequence of operations given as input is possible to perform.\n\n**Output Format**\n\nEach operation of type  must print the  character on a new line.\n\n**Sample Input**\n\n```\nSTDIN   Function\n-----   --------\n8       Q = 8\n1 abc   ops[0] = '1 abc'\n3 3     ops[1] = '3 3'\n2 3     ...\n1 xy\n3 2\n4\n4\n3 1\n\n```\n\n**Sample Output**\n\n```\nc\ny\na\n\n```\n\n**Explanation**\n\nInitially,  is empty. The following sequence of  operations are described below:\n\n* . We append  to , so .\n\n* Print the  character on a new line. Currently, the  character is `c`.\n\n* Delete the last  characters in  (), so .\n\n* Append  to , so .\n\n* Print the  character on a new line. Currently, the  character is `y`.\n\n* Undo the last update to , making  empty again (i.e., ).\n\n* Undo the next to last update to  (the deletion of the last  characters), making .\n\n* Print the  character on a new line. Currently, the  character is `a`.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-21T15:25:50.072Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "simple-text-editor"
+}
