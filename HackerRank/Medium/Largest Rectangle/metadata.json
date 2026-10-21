@@ -1,0 +1,15 @@
+{
+  "title": "Largest Rectangle ",
+  "title_slug": "largest-rectangle",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/largest-rectangle/problem",
+  "tags": [],
+  "description": "*Skyline Real Estate Developers* is planning to demolish a number of old, unoccupied buildings and construct a shopping mall in their place. Your task is to find the largest solid area in which the mall can be constructed.\n\nThere are a number of buildings in a certain two-dimensional landscape. Each building has a height, given by . If you join  adjacent buildings, they will form a solid rectangle of area .\n\n**Example** **\n\nA rectangle of height  and length  can be constructed within the boundaries.  The area formed is .\n\nFunction Description**\n\nComplete the function `largestRectangle` int the editor below.  It should return an integer representing the largest rectangle that can be formed within the bounds of consecutive buildings.\n\nlargestRectangle has the following parameter(s):\n\n* *int h[n]:* the building heights\n\n**Returns** **\n- *long:* the area of the largest rectangle that can be formed within the bounds of consecutive buildings\n\nInput Format**\n\nThe first line contains , the number of buildings. **\nThe second line contains  space-separated integers, each the height of a building.\n\nConstraints**\n\n*\n\n*\n\n**Sample Input**\n\n```\nSTDIN       Function\n-----       --------\n5           h[] size n = 5\n1 2 3 4 5   h = [1, 2, 3, 4, 5]\n\n```\n\n**Sample Output**\n\n```\n9\n\n```\n\n**Explanation**\n\nAn illustration of the test case follows.\n\n![image](https://s3.amazonaws.com/hr-challenge-images/8136/1436794554-75e178e325-drawing47.svg)",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-21T16:17:01.729Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "largest-rectangle"
+}
