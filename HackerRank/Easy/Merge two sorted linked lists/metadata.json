@@ -1,0 +1,15 @@
+{
+  "title": "Merge two sorted linked lists",
+  "title_slug": "merge-two-sorted-linked-lists",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/merge-two-sorted-linked-lists/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool)\n\nGiven pointers to the heads of two sorted linked lists, merge them into a single, sorted linked list. Either head pointer may be null meaning that the corresponding list is empty.\n\n**Example** **\n refers to\n\n refers to\n\nThe new list is\n\nFunction Description**\n\nComplete the *mergeLists* function in the editor below.\n\n*mergeLists* has the following parameters:\n\n* *SinglyLinkedListNode pointer headA:* a reference to the head of a list\n\n* *SinglyLinkedListNode pointer headB:* a reference to the head of a list\n\n**Returns**\n\n* *SinglyLinkedListNode pointer:* a reference to the head of the merged list\n\n**Input Format**\n\nThe first line contains an integer , the number of test cases.\n\nThe format for each test case is as follows:\n\nThe first line contains an integer , the length of the first linked list. **\nThe next  lines contain an integer each, the elements of the linked list.\n\nThe next line contains an integer , the length of the second linked list.\n\nThe next  lines contain an integer each, the elements of the second linked list.\n\nConstraints**\n\n*\n\n*\n\n* , where  is the  element of the list.\n\n**Sample Input**\n\n```\n1\n3\n1\n2\n3\n2\n3\n4\n\n```\n\n**Sample Output**\n\n```\n1 2 3 3 4\n\n```\n\n**Explanation**\n\nThe first linked list is:\n\nThe second linked list is:\n\nHence, the merged linked list is:",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-22T14:24:16.721Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "merge-two-sorted-linked-lists"
+}
