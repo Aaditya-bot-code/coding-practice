@@ -1,0 +1,15 @@
+{
+  "title": "Get Node Value",
+  "title_slug": "get-the-value-of-the-node-at-a-specific-position-from-the-tail",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/get-the-value-of-the-node-at-a-specific-position-from-the-tail/problem",
+  "tags": [],
+  "description": "This challenge is part of a tutorial track by [MyCodeSchool](http://www.youtube.com/mycodeschool)\n\nGiven a pointer to the head of a linked list and a specific position, determine the data value at that position. Count backwards from the tail node.  The tail is at postion 0, its parent is at 1 and so on.\n\n**Example** **\n refers to\n\nEach of the data values matches its distance from the tail.  The value  is at the desired position.\n\nFunction Description**\n\nComplete the *getNode* function in the editor below.\n\n*getNode* has the following parameters:\n\n* *SinglyLinkedListNode pointer head:* refers to the head of the list\n\n* *int positionFromTail:* the item to retrieve\n\n**Returns**\n\n* *int:* the value at the desired position\n\n**Input Format**\n\nThe first line contains an integer , the number of test cases.\n\nEach test case has the following format: **\nThe first line contains an integer , the number of elements in the linked list.\n\nThe next  lines contains an integer, the data value for an element of the linked list.\n\nThe last line contains an integer , the position from the tail to retrieve the value of.\n\nConstraints**\n\n*\n\n*\n\n* , where  is the  element of the linked list.\n\n*\n\n**Sample Input**\n\n```\n2\n1\n1\n0\n3\n3\n2\n1\n2\n\n```\n\n**Sample Output**\n\n```\n1\n3\n\n```\n\n**Explanation**\n\nIn the first case, there is one element in linked list with a value of 1. The last (only) element contains 1.\n\nIn the second case, the list is . The element with position of 2 from tail contains 3.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-22T14:34:14.593Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "get-the-value-of-the-node-at-a-specific-position-from-the-tail"
+}
