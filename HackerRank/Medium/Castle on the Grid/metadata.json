@@ -1,0 +1,15 @@
+{
+  "title": "Castle on the Grid",
+  "title_slug": "castle-on-the-grid",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/castle-on-the-grid/problem",
+  "tags": [],
+  "description": "You are given a square grid with some cells open (**.**) and some blocked (**X**).  Your playing piece can move along any row or column until it reaches the edge of the grid or a blocked cell.  Given a grid, a start and a goal, determine the minmum number of moves to get to the goal.\n\n**Example**.\n\n **\n\nThe grid is shown below:\n\n```\n...\n.X.\n...\n\n```\n\nThe starting position  so start in the top left corner.  The goal is .  The path is .  It takes  moves to reach the goal.\n\nFunction Description** **\nComplete the *minimumMoves* function in the editor.\n\nminimumMoves has the following parameter(s):\n\n* *string grid[n]:* an array of strings that represent the rows of the grid\n\n* *int startX:* starting X coordinate\n\n* *int startY:* starting Y coordinate\n\n* *int goalX:* ending X coordinate\n\n* *int goalY:* ending Y coordinate\n\nReturns**\n\n* *int:* the minimum moves to reach the goal\n\n**Input Format**\n\nThe first line contains an integer , the size of the array *grid*. **\nEach of the next  lines contains a string of length .\n\nThe last line contains four space-separated integers,\n\nConstraints**\n\n*\n\n*\n\n**Sample Input**\n\n```\nSTDIN       FUNCTION\n-----       --------\n3           grid[] size n = 3\n.X.         grid = ['.X.','.X.', '...']\n.X.\n...\n0 0 0 2     startX = 0, startY = 0, goalX = 0, goalY = 2\n\n```\n\n**Sample Output**\n\n```\n3\n\n```\n\n**Explanation**\n\nHere is a path that one could follow in order to reach the destination in  steps:\n\n.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-23T15:23:28.991Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "castle-on-the-grid"
+}
