@@ -1,0 +1,15 @@
+{
+  "title": "AND xor OR",
+  "title_slug": "and-xor-or",
+  "difficulty": "Hard",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/and-xor-or/problem",
+  "tags": [],
+  "description": "Given an array  of  distinct elements. Let  and  be the smallest and the next smallest element in the interval  where .\n\n.\n\nwhere , are the bitwise operators ,  and  respectively. **\nYour task is to find the maximum possible value of .\n\nInput Format**\n\nFirst line contains integer . **\nSecond line contains  integers, representing elements of the array .\n\nConstraints** **\n\nOutput Format**\n\nPrint the value of maximum possible value of .\n\n**Sample Input**\n\n```\n5\n9 6 3 5 2\n\n```\n\n**Sample Output**\n\n```\n15\n\n```\n\n**Explanation**\n\nConsider the interval  the result will be maximum.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-23T14:39:06.806Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "and-xor-or"
+}
