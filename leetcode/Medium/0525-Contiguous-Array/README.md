@@ -73,7 +73,7 @@ class Solution {
             {
                 maxLength = Math.max(maxLength, i - firstIndex.get(balance));
             }
-            if(!firstIndex.containsKey(balance))
+            else
             {
             firstIndex.put(balance,i);
             }
