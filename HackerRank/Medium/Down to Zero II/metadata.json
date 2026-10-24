@@ -1,0 +1,15 @@
+{
+  "title": "Down to Zero II",
+  "title_slug": "down-to-zero-ii",
+  "difficulty": "Medium",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/down-to-zero-ii/problem",
+  "tags": [],
+  "description": "You are given  queries. Each query consists of a single number . You can perform any of the  operations on  in each move:\n\n1: If we take 2 integers  and  where , , then we can change\n\n2: Decrease the value of  by .\n\nDetermine the minimum number of moves required to reduce the value of  to .\n\n**Input Format**\n\nThe first line contains the integer . **\nThe next  lines each contain an integer, .\n\nConstraints**\n\n **\n\nOutput Format**\n\nOutput  lines. Each line containing the minimum number of moves required to reduce the value of  to .\n\n**Sample Input**\n\n```\n2\n3\n4\n\n```\n\n**Sample Output**\n\n```\n3\n3\n\n```\n\n**Explanation**\n\nFor test case 1, We only have one option that gives the minimum number of moves.\n\nFollow  ->  ->  -> . Hence,  moves.\n\nFor the case 2, we can either go  ->  ->  ->  ->  or  ->  ->  -> . The 2nd option is more optimal. Hence,  moves.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-24T14:25:54.545Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "down-to-zero-ii"
+}
