@@ -1,0 +1,20 @@
+{
+  "question_id": "560",
+  "title": "Subarray Sum Equals K",
+  "title_slug": "subarray-sum-equals-k",
+  "difficulty": "Medium",
+  "language": "java",
+  "url": "https://leetcode.com/problems/subarray-sum-equals-k/",
+  "tags": [
+    "Array",
+    "Hash Table",
+    "Prefix Sum"
+  ],
+  "description": "<p>Given an array of integers <code>nums</code> and an integer <code>k</code>, return <em>the total number of subarrays whose sum equals to</em> <code>k</code>.</p>\n\n<p>A subarray is a contiguous <strong>non-empty</strong> sequence of elements within an array.</p>\n\n<p>&nbsp;</p>",
+  "examples": "<p><strong class=\"example\">Example 1:</strong></p>\n<pre><strong>Input:</strong> nums = [1,1,1], k = 2\n<strong>Output:</strong> 2\n</pre><p><strong class=\"example\">Example 2:</strong></p>\n<pre><strong>Input:</strong> nums = [1,2,3], k = 3\n<strong>Output:</strong> 2\n</pre>",
+  "constraints": "<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= nums.length &lt;= 2 * 10<sup>4</sup></code></li>\n\t<li><code>-1000 &lt;= nums[i] &lt;= 1000</code></li>\n\t<li><code>-10<sup>7</sup> &lt;= k &lt;= 10<sup>7</sup></code></li>\n</ul>",
+  "synced_at": "2026-10-24T13:08:11.284Z",
+  "platform": "leetcode",
+  "platformId": "leetcode",
+  "problemId": "560"
+}
