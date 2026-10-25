@@ -1,0 +1,15 @@
+{
+  "title": "Truck Tour",
+  "title_slug": "truck-tour",
+  "difficulty": "Hard",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/truck-tour/problem",
+  "tags": [],
+  "description": "Suppose there is a circle. There are  petrol pumps on that circle. Petrol pumps are numbered  to  (both inclusive). You have two pieces of information corresponding to each of the petrol pump: (1) the amount of petrol that particular petrol pump will give, and (2) the distance from that petrol pump to the next petrol pump.\n\nInitially, you have a tank of infinite capacity carrying no petrol. You can start the tour at any of the petrol pumps. Calculate the first point from where the truck will be able to complete the circle. Consider that the truck will stop at each of the petrol pumps. The truck will move one kilometer for each litre of the petrol.\n\n**Input Format**\n\nThe first line will contain the value of .**\nThe next  lines will contain a pair of integers each, i.e. the amount of petrol that petrol pump will give and the distance between that petrol pump and the next petrol pump.\n\nConstraints:****\n\nOutput Format**\n\nAn integer which will be the smallest index of the petrol pump from which we can start the tour.\n\n**Sample Input**\n\n```\n3\n1 5\n10 3\n3 4\n\n```\n\n**Sample Output**\n\n```\n1\n\n```\n\n**Explanation**\n\nWe can start the tour from the second petrol pump.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-25T09:44:41.219Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "truck-tour"
+}
