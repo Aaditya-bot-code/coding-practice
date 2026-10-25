@@ -1,0 +1,15 @@
+{
+  "title": "Queries with Fixed Length",
+  "title_slug": "queries-with-fixed-length",
+  "difficulty": "Hard",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/queries-with-fixed-length/problem",
+  "tags": [],
+  "description": "Consider an -integer sequence, . We perform a query on  by using an integer, , to calculate the result of the following expression:\n\nIn other words, if we let , then you need to calculate .\n\nGiven  and  queries, return a list of answers to each query.\n\n**Example** **\n\nThe first query uses all of the subarrays of length :  .  The maxima of the subarrays are .  The minimum of these is .\n\nThe second query uses all of the subarrays of length : .  The maxima of the subarrays are .  The minimum of these is .\n\nReturn .\n\nFunction Description**\n\nComplete the *solve* function below.\n\n*solve* has the following parameter(s):\n\n* *int arr[n]:* an array of integers\n\n* *int queries[q]:* the lengths of subarrays to query\n\n**Returns**\n\n* *int[q]:* the answers to each query\n\n**Input Format**\n\nThe first line consists of two space-separated integers,  and . **\nThe second line consists of  space-separated integers, the elements of .\n\nEach of the  subsequent lines contains a single integer denoting the value of  for that query.\n\nConstraints**\n\n*\n\n*\n\n*\n\n*\n\n**Sample Input 0**\n\n```\n5 5\n33 11 44 11 55\n1\n2\n3\n4\n5\n\n```\n\n**Sample Output 0**\n\n```\n11\n33\n44\n44\n55\n\n```\n\n**Explanation 0**\n\nFor , the answer is . **\nFor , the answer is .\n\nFor , the answer is .\n\nFor , the answer is .\n\nFor , the answer is .\n\nSample Input 1**\n\n```\n5 5\n1 2 3 4 5\n1\n2\n3\n4\n5\n\n```\n\n**Sample Output 1**\n\n```\n1\n2\n3\n4\n5\n\n```\n\n**Explanation 1**\n\nFor each query, the \"prefix\" has the least maximum value among the consecutive subsequences of the same size.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-25T10:12:58.797Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "queries-with-fixed-length"
+}
