@@ -1,0 +1,15 @@
+{
+  "title": "QHEAP1",
+  "title_slug": "qheap1",
+  "difficulty": "Easy",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/qheap1/problem",
+  "tags": [],
+  "description": "This question is designed to help you get a better understanding of *basic heap* operations.\n\nThere are  types of query:\n\n* \" \" - Add an element  to the heap.\n\n* \" \" - Delete the element  from the heap.\n\n* \"\" - Print the minimum of all the elements in the heap.\n\n**NOTE**: It is guaranteed that the element to be deleted will be there in the heap. Also, at any instant, only distinct elements will be in the heap.\n\n**Input Format**\n\nThe first line contains the number of queries, . **\nEach of the next  lines contains one of the  types of query.\n\nConstraints** **\n\nOutput Format**\n\nFor each query of type , print the minimum value on a single line.\n\n**Sample Input**\n\n```\nSTDIN       Function\n-----       --------\n5           Q = 5\n1 4         insert 4\n1 9         insert 9\n3           print minimum\n2 4         delete 4\n3           print minimum\n\n```\n\n**Sample Output**\n\n```\n4\n9\n\n```\n\n**Explanation**\n\nAfter the first  queries, the heap contains {}. Printing the minimum gives  as the output. Then, the  query deletes  from the heap, and the  query gives  as the output.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-26T14:54:49.561Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "qheap1"
+}
