@@ -1,0 +1,15 @@
+{
+  "title": "Tree: Level Order Traversal",
+  "title_slug": "tree-level-order-traversal",
+  "difficulty": "Easy",
+  "language": "java8",
+  "url": "https://www.hackerrank.com/challenges/tree-level-order-traversal/problem",
+  "tags": [],
+  "description": "Given a pointer to the root of a binary tree, you need to print the level order traversal of this tree. In level-order traversal, nodes are visited level by level from left to right. Complete the function  and print the values in a single line separated by a space.\n\nFor example:\n\n```\n     1\n      \\\n       2\n        \\\n         5\n        /  \\\n       3    6\n        \\\n         4\n\n```\n\nFor the above tree, the level order traversal is .\n\n**Input Format**\n\nYou are given a function,\n\n```\nvoid levelOrder(Node * root) {\n\n}\n\n```\n\n**Constraints**\n\n Nodes in the tree\n\n**Output Format**\n\nPrint the values in a single line separated by a space.\n\n**Sample Input**\n\n```\n     1\n      \\\n       2\n        \\\n         5\n        /  \\\n       3    6\n        \\\n         4\n\n```\n\n**Sample Output**\n\n1 2 5 3 6 4\n\n**Explanation**\n\nWe need to print the nodes level by level. We process each level from left to right.\n\nLevel Order Traversal: .",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-26T15:07:57.235Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "tree-level-order-traversal"
+}
