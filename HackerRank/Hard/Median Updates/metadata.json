@@ -1,0 +1,15 @@
+{
+  "title": "Median Updates",
+  "title_slug": "median",
+  "difficulty": "Hard",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/median/problem",
+  "tags": [],
+  "description": "The median of  numbers is defined as the middle number after sorting them in order if  is odd. Or it is the average of the middle two numbers if  is even. You start with an empty number list. Then, you can add numbers to the list, or remove existing numbers from it. After each add or remove operation, output the median.\n\n**Example:** **\nFor a set of  numbers  the median is the third number in the sorted set , which is . Similarly, for a set of  numbers, , the median is the average of the second and the third element in the sorted set , which is .\n\nInput:** **\nThe first line is an integer, , that indicates the number of operations. Each of the next  lines is either *a x* or *r x*. *a x* indicates that  is added to the set, and *r x* indicates that  is removed from the set.\n\nOutput:** **\nFor each operation: If the operation is *add*, output the median after adding  in a single line. If the operation is *remove* and the number  is not in the list, output *Wrong!* in a single line. If the operation is *remove* and the number  is in the list, output the median after deleting  in a single line. (If the result is an integer DO NOT output decimal point. And if the result is a real number, DO NOT output trailing 0s.)\n\nNote** **\nIf your median is 3.0, print only 3. And if your median is 3.50, print only 3.5. Whenever you need to print the median and the list is empty, print *Wrong!*\n\nConstraints:** **\n\nFor each *a x* or *r x*,  will always be a signed integer (which will fit in 32 bits).\n\nSample Input:**\n\n```\n7\nr 1\na 1\na 2\na 1\nr 1\nr 2\nr 1\n\n```\n\n**Sample Output:**\n\n```\nWrong!\n1\n1.5\n1\n1.5\n1\nWrong!\n\n```\n\n**Note:** As evident from the last line of the input, if after remove operation the list becomes empty, you have to print *Wrong!*.",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-10-29T15:25:23.395Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "median"
+}
