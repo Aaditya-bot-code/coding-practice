@@ -1,0 +1,15 @@
+{
+  "title": "Array and simple queries",
+  "title_slug": "array-and-simple-queries",
+  "difficulty": "Hard",
+  "language": "java15",
+  "url": "https://www.hackerrank.com/challenges/array-and-simple-queries/problem",
+  "tags": [],
+  "description": "Given two numbers  and .  indicates the number of elements in the array  and  indicates number of queries. You need to perform two types of queries on the array .\n\nYou are given  queries. Queries can be of two types, type **1** and type **2**.\n\n*\nType 1 queries are represented as `1 i j` : Modify the given array by removing elements from  to  and adding them to the front.\n\n*\nType 2 queries are represented as `2 i j` : Modify the given array by removing elements from  to  and adding them to the back.\n\nYour task is to simply print  of the resulting array after the execution of  queries followed by the resulting array.\n\n**Note** While adding at back or front the order of elements is preserved.\n\n**Input Format**\n\nFirst line consists of two space-separated integers,  and . **\nSecond line contains  integers, which represent the elements of the array.\n\n queries follow. Each line contains a query of either *type 1* or *type 2* in the form\n\nConstraints** **\n\nOutput Format**\n\nPrint the absolute value i.e.  in the first line. **\nPrint elements of the resulting array in the second line. Each element should be seperated by a single space.\n\nSample Input**\n\n```\n8 4\n1 2 3 4 5 6 7 8\n1 2 4\n2 3 5\n1 4 7\n2 1 4\n\n```\n\n**Sample Output**\n\n```\n1\n2 3 6 5 7 8 4 1\n\n```\n\n**Explanation**\n\nGiven array is .\n\nAfter execution of query , the array becomes .\n\nAfter execution of query , the array becomes .\n\nAfter execution of query , the array becomes .\n\nAfter execution of query , the array becomes .\n\nNow  is  i.e.  and the array is",
+  "examples": "",
+  "constraints": "",
+  "synced_at": "2026-11-01T15:57:25.875Z",
+  "platform": "hackerrank",
+  "platformId": "hackerrank",
+  "problemId": "array-and-simple-queries"
+}
