@@ -1,0 +1,19 @@
+{
+  "question_id": "135",
+  "title": "Candy",
+  "title_slug": "candy",
+  "difficulty": "Hard",
+  "language": "java",
+  "url": "https://leetcode.com/problems/candy/",
+  "tags": [
+    "Array",
+    "Greedy"
+  ],
+  "description": "<p>There are <code>n</code> children standing in a line.</p>\n\n<p>Each child is assigned a rating value given in the integer array <code>ratings</code>.</p>\n\n<p>You are giving candies to these children subjected to the following requirements:</p>\n\n<ul>\n\t<li>Each child must have <strong>at least</strong> one candy.</li>\n\t<li>Children with a <strong>higher</strong> rating get more candies than their neighbors.</li>\n</ul>\n\n<p>Return the <strong>minimum</strong> number of candies you need to have to distribute the candies to the children.</p>\n\n<p>&nbsp;</p>",
+  "examples": "<p><strong class=\"example\">Example 1:</strong></p>\n\n<pre>\n<strong>Input:</strong> ratings = [1,0,2]\n<strong>Output:</strong> 5\n<strong>Explanation:</strong> You can allocate to the first, second and third child with 2, 1, 2 candies respectively.\n</pre>\n\n<p><strong class=\"example\">Example 2:</strong></p>\n\n<pre>\n<strong>Input:</strong> ratings = [1,2,2]\n<strong>Output:</strong> 4\n<strong>Explanation:</strong> You can allocate to the first, second and third child with 1, 2, 1 candies respectively.\nThe third child gets 1 candy because it satisfies the above two conditions.\n</pre>",
+  "constraints": "<p>&nbsp;</p>\n<p><strong>Constraints:</strong></p>\n\n<ul>\n\t<li><code>1 &lt;= n == ratings.length &lt;= 5 * 10<sup>4</sup></code></li>\n\t<li><code>0 &lt;= ratings[i] &lt;= 5 * 10<sup>4</sup></code></li>\n</ul>",
+  "synced_at": "2026-11-04T14:35:26.133Z",
+  "platform": "leetcode",
+  "platformId": "leetcode",
+  "problemId": "135"
+}
